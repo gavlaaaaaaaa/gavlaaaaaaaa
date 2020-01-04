@@ -9,7 +9,7 @@ tags:
 - bigdata
 ---
 
-![Fuzzy Merging — Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/2560/0*MrXLKvG8Ssokx01A)
+![Fuzzy Merging — Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](../images/fuzzymatch.jpg)
 Fuzzy Merging — Photo by [Markus Spiske](https://unsplash.com/@markusspiske?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 If you’re lucky, when working with multiple datasets within your data warehouse there will be some kind of join column available for tables you want to bring together.

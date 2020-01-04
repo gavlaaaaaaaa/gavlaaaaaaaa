@@ -8,7 +8,7 @@ tags:
 - workflow
 ---
 
-![Photo by [David Travis](https://unsplash.com/@dtravisphd?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/2560/0*gfKc90X2XTCGLG1Y)
+![Photo by [David Travis](https://unsplash.com/@dtravisphd?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](../images/avoidagile.jpg)
 Photo by [David Travis](https://unsplash.com/@dtravisphd?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 This is a brief post outlining what I’ve learned working in a number of agile teams. I’ll talk about what worked well and what failed miserably in the hope that you can learn from this and implement decent agile workflows in your company or improve on existing ones.
