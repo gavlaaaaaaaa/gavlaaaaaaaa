@@ -9,7 +9,7 @@ tags:
 - sas 
 ---
 
-![SAS Forum UK 2016 Birmingham Day 3](https://pbs.twimg.com/media/CtbqBJgWcAAJhDe.jpg:large)
+![SAS Forum UK 2016 Birmingham Day 3](../images/sasforum.jpg)
 *Image taken from Twitter*
 
 This post will explore the second day of conferences - make sure you check out the [previous day](http://www.lewisgavin.co.uk/SAS-Forum-UK) too. The main theme was around Customer Intelligence. How do you monitor customer events? How do you better understand how your customers feel? How do you improve and tailor each customers experience?
