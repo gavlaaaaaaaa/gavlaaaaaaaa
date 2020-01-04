@@ -8,7 +8,7 @@ tags:
 - kafka
 ---
 
-![Why Streaming?](../images/streaming.jp2)
+![Why Streaming?](../images/streaming.jpg)
 
 With data flowing and updating from ever more sources, businesses are looking to translate this data into insights to make key business decisions. Real time data streams have become more popular due to the Internet of Things (IoT), sensors and social media. These platforms provide ever changing states. Analysing them a day later can give misleading or now currently false information.
 
@@ -16,7 +16,7 @@ Streaming allows consistent data ingestion. There were a few flaws that prevente
 
 Newer streaming technologies such as Apache Kafka have helped resolve some of these issues. Kafka is a publish-subscribe message system. It provides isolation between data producers and data consumers. It also allows intermediate storage and buffering of data to help with large velocities. 
 
-![Kafka](../images/kafka.jp2)
+![Kafka](../images/kafka.jpg)
 
 When choosing a streaming platform, there are three main things to consider: Reliability, throughput and flexibility. Kafka is capable of providing each of these in its own way.
 

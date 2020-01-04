@@ -9,7 +9,7 @@ tags:
 - pentaho 
 ---
 
-![Kudu-Spark-Part3](../images/kudu-spark.jp2)
+![Kudu-Spark-Part3](../images/kudu-spark.jpg)
 
 You've made it to Part 3, congrats! In [part 1](http://www.lewisgavin.co.uk/CDH-Docker) we looked at installing a CDH quickstart docker container along with Pentaho BA. In [part 2](http://www.lewisgavin.co.uk/Data-Ingestion-Kafka-Spark) we created an ingestion pipeline using Kafka to read data from twitter and obtain a word count of the most popular phrases for a specific hashtag.
 

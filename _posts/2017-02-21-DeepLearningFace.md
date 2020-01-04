@@ -9,7 +9,7 @@ tags:
 - python
 ---
 
-![Face Recognition with Deep Learning](../images/face_recognition.jp2)
+![Face Recognition with Deep Learning](../images/face_recognition.jpg)
 
 In my previous two posts I looked at [Detecting faces within images](http://www.lewisgavin.co.uk/FaceRecognition) and then [Data prep](http://www.lewisgavin.co.uk/ImageDataPrep) to extract the face from the image and align it so that regardless of the rotation of the face, the facial features were always aligned centrally.
 

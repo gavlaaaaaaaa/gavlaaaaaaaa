@@ -9,7 +9,7 @@ tags:
 - hbase 
 ---
 
-![Intro to Apache HBase](../images/hbase_intro.jp2)
+![Intro to Apache HBase](../images/hbase_intro.jpg)
 
 Apache HBase is a distributed, NoSQL database designed specifically to sit on top of Hadoop and is modeled closely on Google's BigTable.
 

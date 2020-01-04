@@ -9,7 +9,7 @@ tags:
 - spark 
 ---
 
-![Scaling Spark streaming](../images/scaling_spark.jp2)
+![Scaling Spark streaming](../images/scaling_spark.jpg)
 
 In previous posts I have looked at [Spark Streaming](http://www.lewisgavin.co.uk/Spark-Streaming/) and [improving the performance of Spark applications](http://www.lewisgavin.co.uk/Spark-Performance/).
 
@@ -25,7 +25,7 @@ In traditional streaming applications if data is partitioned based on size and s
 
 In Spark this wouldn't be a problem, as data is distributed **dynamically**. Data is sent to nodes that are capable of processing at that point in time.
 
-![Spark streaming dynamic load balancing](https://img.readitlater.com/i/databricks.com/wp-content/uploads/2015/07/image31-1024x581/RS/w704.jp2?&ssl=1)
+![Spark streaming dynamic load balancing](https://img.readitlater.com/i/databricks.com/wp-content/uploads/2015/07/image31-1024x581/RS/w704.jpg?&ssl=1)
 
 *Image taken from [Databricks](https://databricks.com/blog/2015/07/30/diving-into-apache-spark-streamings-execution-model.html)*
 

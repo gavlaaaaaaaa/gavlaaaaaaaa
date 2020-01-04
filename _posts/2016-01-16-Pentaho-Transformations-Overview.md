@@ -25,7 +25,7 @@ It allows rows to be input from a number of input sources, transformed and then 
 
 Below is an example of a transformation with two steps and a hop.
 
-![Pentaho-Hop](https://anotherreeshu.files.wordpress.com/2014/12/capture11.jp2)
+![Pentaho-Hop](https://anotherreeshu.files.wordpress.com/2014/12/capture11.jpg)
 
 ## Steps
 A **Step** is represented by an icon within the *Spoon* interface and usually performs a specific task. Each step is like a little function, and these functions can all be joined together to make the full program. _Sounds familiar right?_
@@ -56,7 +56,7 @@ A hop can take many forms such as:
 2. Flow data if true or false - some steps can filter data in different directions based on a condition, this is represented in the image below for example, by the Filter Rows step using Green and Red arrows for True, False conditions respectively.
 
 Below is an example of a Hops after filtering (notice the difference to the first image)
-![Filter-Hop](https://www.packtpub.com/sites/default/files/Article-Images/5245OS_06_02.jp2)
+![Filter-Hop](https://www.packtpub.com/sites/default/files/Article-Images/5245OS_06_02.jpg)
 
 ## Running your first transformation
 The Hello world of PDI:
@@ -64,27 +64,27 @@ The Hello world of PDI:
 1. Open PDI and go to File > New > Transformation
 
 2. On the left go the the Input folder and Drag and drop a _Data Grid_ step onto the canvas
-![Data Grid](../images/Pentaho/add_data_grid_step.jp2)
+![Data Grid](../images/Pentaho/add_data_grid_step.jpg)
 
 3. On the left go to the Utility folder and drag and drop a _Write to log_ step to the right of the _Data Grid_ step.
-![Write to log](../images/Pentaho/add_log_step.jp2)
+![Write to log](../images/Pentaho/add_log_step.jpg)
 
 4. Join the two steps together with a hop by holding _SHIFT_, click and hold on the _Data Grid_ and drag the mouse over to the _Write to log_ step then let go.
-![Hop](../images/Pentaho/data_hop_to_log.jp2)
+![Hop](../images/Pentaho/data_hop_to_log.jpg)
 
 5. Double click on the Data Grid step, now we are going to insert some data. 
 A Data Grid is like an excel sheet or a static table.
 In the meta tab we can define the columns for our grid, make a column called **Hello** of type **String**.
-![Data Grid Meta](../images/Pentaho/data_grid_meta_tab.jp2)
+![Data Grid Meta](../images/Pentaho/data_grid_meta_tab.jpg)
 
 6. Within the Data Grid step, now go to the _Data_ tab. You should see the **Hello** column. Insert some data in this column by clicking and typing within the grid.
-![Data Grid Data](../images/Pentaho/data_grid_data_tab.jp2)
+![Data Grid Data](../images/Pentaho/data_grid_data_tab.jpg)
 
 7. Save the transformation by clicking save (top left)
 
 8. Now lets run it! Hit the green play button towards the top of the canvas.
 Once its run, you should see an _Execution Results_ panel display at the bottom of the page with a bunch of tabs. For now, select the _Logging_ tab. You should see your text displayed. The log will tell you that name of the step outputting the message, the column name (Hello) and the text you entered.
-![Log Output](../images/Pentaho/log_output.jp2)
+![Log Output](../images/Pentaho/log_output.jpg)
 
 ## Summary
 Well thats it for this first part. Short, sweet and simple!

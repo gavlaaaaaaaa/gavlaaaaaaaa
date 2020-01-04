@@ -7,7 +7,7 @@ tags:
 - agile 
 ---
 
-![agile what I've learnt](../images/agile.jp2)
+![agile what I've learnt](../images/agile.jpg)
 
 This is a brief post outlining what working in an Agile team has meant for me. How it has changed the way I work, and the team work. I'll also dive into the things I've seen that should never be repeated!
 

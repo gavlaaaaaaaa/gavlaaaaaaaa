@@ -28,7 +28,7 @@ You join the blocks together to form a pipeline for your data to flow through. I
 
 It can do some pretty complex stuff too as demonstrated by Swipely’s workflow in the image below.
 
-![[Source](https://www.datasciencecentral.com/profiles/blogs/4-data-processing-architectures-of-web-companies)](https://cdn-images-1.medium.com/max/800/1*FAJsepvgP0ErOnN7kqZ1gw.jp2)
+![[Source](https://www.datasciencecentral.com/profiles/blogs/4-data-processing-architectures-of-web-companies)](https://cdn-images-1.medium.com/max/800/1*FAJsepvgP0ErOnN7kqZ1gw.jpg)
 [Source](https://www.datasciencecentral.com/profiles/blogs/4-data-processing-architectures-of-web-companies)
 
 ### Data Pipeline vs the market

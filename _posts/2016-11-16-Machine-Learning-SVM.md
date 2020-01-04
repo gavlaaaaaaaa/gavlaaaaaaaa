@@ -8,7 +8,7 @@ tags:
 - machine learning
 ---
 
-![Improving on Naive Bayes with Support Vector Machines](../images/svm.jp2)
+![Improving on Naive Bayes with Support Vector Machines](../images/svm.jpg)
 
 Last weeks post was a [Machine Learning Intro for everyone](http://www.lewisgavin.co.uk/Machine-Learning-Basics) delving into the basics of Naive Bayes using Simpsons data. This week I am going to build on this to try and improve the accuracy using Support Vector Machines.
 

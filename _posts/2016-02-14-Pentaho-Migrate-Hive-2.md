@@ -26,10 +26,10 @@ If we add a *Get Variables* step to the stream in order to get our **table** var
 One of the fields output from the *Metadata structure from Stream* step is the **Type** field. This specifies the data type of each column. Due to the differences between MySQL and Hive types, we will need to do some conversion.
 
 This can be done in numerous ways: using a regex replace step twinned with some JavaScript, using a Map Values step; although for us this wouldnt be suitable, or by simply using the *Replace in string* step to do a simple find and replace. I opted for the *Replace in string* option. This should be set up as follows.
-![Convert Data Types](../images/Pentaho/hive_tables_1.jp2)
+![Convert Data Types](../images/Pentaho/hive_tables_1.jpg)
 
 The Transformation up until this point should look as follows:
-![Current Point](../images/Pentaho/hive_tables_2.jp2)
+![Current Point](../images/Pentaho/hive_tables_2.jpg)
 
 ## Step 3 - Transform the schema data
 Currently, the stream is not in a position where we can easily generate a Create Table statement to be issued to Hive. In this step, we will look at how we can get pivot our set of column names and data types all onto one row.
@@ -39,7 +39,7 @@ Firstly, we need to concatenate the column name and converted data type together
 Now we need to pivot all those rows of Column Type concatinations onto a single row, seperated by a comma. This will make it really easy to generate a Hive statement, as like SQL the syntax to create a table requires a comma seperated list of column names and their types.
 
 To do this, we will use a *Memory Group by* step as follows.
-![Group By](../images/Pentaho/hive_tables_3.jp2)
+![Group By](../images/Pentaho/hive_tables_3.jpg)
 
 This will produce a single row with two columns: the table name and a comma seperated list of columns and data types. Now all thats left is to add the rest of the syntax around the edges.
 
@@ -49,17 +49,17 @@ This surrounding syntax for our Hive statement should follow the following forma
 `CREATE TABLE [tablename] (col type, col2 type, col..) ROW FORMATTED FIELDS DELIMITED BY '|' LINES TERMINATED BY '\n' STORED AS TEXTFILE LOCATION /acquired/mysql/[tablename]`
 
 To do this we will use a *Modified Java Script Value* step to easily concatenate these strings as follows:
-![Java Script](../images/Pentaho/hive_tables_4.jp2)
+![Java Script](../images/Pentaho/hive_tables_4.jpg)
 
 
 ## Step 5 - Executing the statement
 We have our final Hive statement and now just need to send it be executed by Hive. We can use the *Execute row SQL step* that can be used to send any row of SQL to be executed via JDBC.
 
 This should be configured as follows.
-![Execute Hive](../images/Pentaho/hive_tables_5.jp2)
+![Execute Hive](../images/Pentaho/hive_tables_5.jpg)
 
 Our final Transformation should look like this. 
-![Final Trans](../images/Pentaho/hive_tables_6.jp2)
+![Final Trans](../images/Pentaho/hive_tables_6.jpg)
 
 I've added some extra error handling, and also at the beginning a *Detect empty stream* step that will send a dummy row down the stream if a table is empty, so it will still be created in Hive in case it is needed at a later date.
 

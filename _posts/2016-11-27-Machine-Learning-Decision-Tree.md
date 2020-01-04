@@ -8,7 +8,7 @@ tags:
 - machine learning
 ---
 
-![Decision Trees for Classification](../images/dt.jp2)
+![Decision Trees for Classification](../images/dt.jpg)
 
 The last post in the Machine Learning algorithm frenzy that I'm currently on was based on [Support Vector Machines](http://www.lewisgavin.co.uk/Machine-Learning-SVM). This post is going to look at another classification algorithm called a Decision Tree and again see if this can improve on our classification problem of predicting whether lines from Simpson's episodes are said by Bart or Homer.
 

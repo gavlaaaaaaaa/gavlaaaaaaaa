@@ -8,7 +8,7 @@ tags:
 - health
 ---
 
-![Disconnect Digitally & Reconnect with the Real World](../images/break_phone_habit.jp2)
+![Disconnect Digitally & Reconnect with the Real World](../images/break_phone_habit.jpg)
 
 In my [previous post](http://www.lewisgavin.co.uk/Goals-2017/)I shared my goals for 2017 and how I planned to focus on **Enjoyment, Minimalism and Reduction**. The starting point for me was to ensure I was present, in the real world in order to enjoy the activities I like doing. I also wanted to minimise as much as I could so that when I choose to do something, the activity had my full focus and attention.
 
@@ -46,7 +46,7 @@ However these habits are now ingrained and therefore the apps were just being us
 
 Any other applications that had been used rarely I removed and then I set my home screen up with my core applications in the hope to render the application tray useless. My home screen now looks as follows:
 
-![phone home screen](../images/home_screen.jp2)
+![phone home screen](../images/home_screen.jpg)
 
 My core applications from top left to bottom right are as follows:
 

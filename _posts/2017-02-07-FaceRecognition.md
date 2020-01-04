@@ -9,7 +9,7 @@ tags:
 - python
 ---
 
-![Face Detection with OpenCV](../images/facedetection.jp2)
+![Face Detection with OpenCV](../images/facedetection.jpg)
 
 I've recently been on a journey to learn more about Deep Learning. I started off with an *Intro to Deep Learning* course on Udacity. If, like me, you are just starting out with Data Science techniques and don't have a heavy mathematical background, I would avoid this course until you have a little more experience.
 
@@ -77,7 +77,7 @@ python facerec.py me.jpg haarcascade_frontalface_default.xml
 
 I got the following output:
 
-![Face detection example](../images/me_face_detect.jp2)
+![Face detection example](../images/me_face_detect.jpg)
 
 ## Wrap up
 

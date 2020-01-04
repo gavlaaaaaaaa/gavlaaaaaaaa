@@ -9,7 +9,7 @@ tags:
 - spark 
 ---
 
-![Sarcasm Detection](../images/sarcasm.jp2)
+![Sarcasm Detection](../images/sarcasm.jpg)
 
 ## Intro to the Approach
 

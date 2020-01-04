@@ -9,7 +9,7 @@ tags:
 - python
 ---
 
-![Image Data Prep for Deep Learning Model](../images/dataprep.jp2)
+![Image Data Prep for Deep Learning Model](../images/dataprep.jpg)
 
 Following on from [last weeks post](http://www.lewisgavin.co.uk/FaceRecognition) on face detection. I wanted to figure out a way to skew images so that facial features were aligned regardless of the angle of the face. 
 
