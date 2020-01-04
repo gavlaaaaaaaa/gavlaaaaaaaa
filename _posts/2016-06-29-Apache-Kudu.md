@@ -8,11 +8,11 @@ tags:
 - kudu
 ---
 
-![Kudu](../images/kudu.png)
+![Kudu](../images/kudu.jp2)
 
 Apache Kudu is a data storage technology that allows fast analytics on fast data. Cloudera kickstarted the project yet it is fully open source. Kudu provides fast insert and update capabilities and fast searching to allow for faster analytics. It sits between HBase and Impala with Parquet, attempting to remove the trade offs between quick scans and rapid random access.
 
-![Where does it sit?](http://blog.cloudera.com/wp-content/uploads/2015/09/kudu-hbase-hdfs1.png)
+![Where does it sit?](http://blog.cloudera.com/wp-content/uploads/2015/09/kudu-hbase-hdfs1.jp2)
 
 *Picture by Cloudera*
 
@@ -25,7 +25,7 @@ It does not use HDFS. It can however coexist with HDFS on the same cluster. Ther
 
 Every table must have a primary key that must be unique. This acts as an index to allow quick access for updates and deletes. Tables are composed of Tablets, which are like partitions. Tablets are replicated across multiple nodes for resiliance. Data is stored in a columnar fashion. This means that columnar aggregations are quicker due to all data in each column being stored sequentially. This also means data can be vectorized and compressed easier because all data per column is of the same type.
 
-![Kudu Architecture](http://kudu.apache.org/docs/images/kudu-architecture-2.png)
+![Kudu Architecture](http://kudu.apache.org/docs/images/kudu-architecture-2.jp2)
 
 *Picture from kudu.apache.org*
 

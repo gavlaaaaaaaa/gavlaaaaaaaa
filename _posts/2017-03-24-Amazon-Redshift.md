@@ -8,7 +8,7 @@ tags:
 - aws
 ---
 
-![Amazon Redshit](../images/redshift.png)
+![Amazon Redshit](../images/redshift.jp2)
 
 This is a quick post following on with the AWS theme from the last two posts: [AWS Overview](http://www.lewisgavin.co.uk/AWSOverview) and [EC2](http://www.lewisgavin.co.uk/AWS-EC2). 
 

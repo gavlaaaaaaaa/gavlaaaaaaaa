@@ -9,7 +9,7 @@ tags:
 - database 
 ---
 
-![NoSQL databases vs Relational Database RDBMS](../images/nosqlvsrdbms.png)
+![NoSQL databases vs Relational Database RDBMS](../images/nosqlvsrdbms.jp2)
 
 This post will be looking into the differences and benefits of NoSQL databases in comparison to traditional databases. After exploring this a little in my [previous post on Apache HBase](http://www.lewisgavin.co.uk/HBase-Intro) I thought it was worth a full post.
 
@@ -29,7 +29,7 @@ As with many things, Google were pioneers and this same concept was embraced by 
 
 NoSQL databases work well when you have something that wouldn't easily be stored in a standard table - for example documents or semi-structured data. Large and unstructured data has become more popular due to social networks and the rise of artificial intelligence - due to the human language being a great learning resource for machines. 
 
-![NoSQL database vs sql graphic](https://acom.azurecomcdn.net/80C57D/cdn/mediahandler/docarticles/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/documentdb-nosql-vs-sql/20160816064407/nosql-vs-sql-overview.png)
+![NoSQL database vs sql graphic](https://acom.azurecomcdn.net/80C57D/cdn/mediahandler/docarticles/dpsmedia-prod/azure.microsoft.com/en-us/documentation/articles/documentdb-nosql-vs-sql/20160816064407/nosql-vs-sql-overview.jp2)
 
 **Image taken from [Microsoft Azure](https://azure.microsoft.com/en-us/documentation/articles/documentdb-nosql-vs-sql/)**
 

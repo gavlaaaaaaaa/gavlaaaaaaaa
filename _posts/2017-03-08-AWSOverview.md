@@ -8,7 +8,7 @@ tags:
 - aws
 ---
 
-![AWS Overview and IAM](../images/aws_overview.png)
+![AWS Overview and IAM](../images/aws_overview.jp2)
 
 This week, I started to look into Amazon Web Services (AWS) to learn about this cloud offering. With more and more services being hosted in the cloud, it seemed like an appropriate time to get a core understanding of what can be done. 
 
@@ -30,9 +30,9 @@ As an example, there is a region called *US East (Ohio)* and another called EU (
 
 Each region has a number of locations within it that are called **Availability Zones**. These can provide failover functionality so if one Availability Zone is down, the others should be isolated and therefore available. They are designed to be isolated but have low latency connections to other Availability zones in the same Region.
 
-![AWS Region and Availability Zone](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/images/Con-AZ.png)
+![AWS Region and Availability Zone](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/images/Con-AZ.jp2)
 
-*Image taken from [AWS Docs](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/images/Con-AZ.png)*
+*Image taken from [AWS Docs](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/images/Con-AZ.jp2)*
 
 ## Edge Locations
 
@@ -46,9 +46,9 @@ Edge locations tend to be hosted within highly populated areas and naturally the
 
 Route 53 is the AWS Domain Name System (DNS) web service. It's goal is to translate domain names to IP addresses so web content can be served to users.
 
-![Route 53](https://www.loggly.com/wp-content/uploads/2014/09/route53howitworks.png)
+![Route 53](https://www.loggly.com/wp-content/uploads/2014/09/route53howitworks.jp2)
 
-*Image taken from [Loggly.com](https://www.loggly.com/wp-content/uploads/2014/09/route53howitworks.png)*
+*Image taken from [Loggly.com](https://www.loggly.com/wp-content/uploads/2014/09/route53howitworks.jp2)*
 
 It gets it's name from using the iconic Route 66 in America as a metaphor. The reason the number 53 was used as this is the port used for DNS Server requests.
 

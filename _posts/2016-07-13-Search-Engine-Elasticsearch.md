@@ -32,7 +32,7 @@ The final one is the **shard**. An index cant be split up, so if you want to dis
 
 You've got a few documents, you want to index them and then perform some searches. This is great, however in enterprise this isn't likey to be your use case. You're more likely to have petabytes of data stored in a cluster of some description, some of which could benefit from elastic search.
 
-![ES-Hadoop](https://static-www.elastic.co/assets/bltc0e7de6e02236a46/eshadoop-diagram.png?q=935)
+![ES-Hadoop](https://static-www.elastic.co/assets/bltc0e7de6e02236a46/eshadoop-diagram.jp2?q=935)
 *Image from https://www.elastic.co/products/hadoop*
 
 Elasticsearch have made this pretty simple by building [elasticsearch-hadoop](https://www.elastic.co/products/hadoop). It solves the distributed paradigm that comes with Hadoop by mapping Hadoop InputSplits or if you're using Spark, a partition, to ES shards. This means you can reap the benefits of distrubuted storage and still perform tasks on your data. Data is also co-located where possible as ES-hadoop will talk to Hadoop and Spark. This will prevent unneccesary data transfer over the network.

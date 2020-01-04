@@ -9,7 +9,7 @@ tags:
 - realtime 
 ---
 
-![Spark streaming header](../images/sparkstreaming.png)
+![Spark streaming header](../images/sparkstreaming.jp2)
 
 I'm quite a big fan of Spark. I recently did a post on [improving spark code performance] (http://www.lewisgavin.co.uk/Spark-Performance) and in this post, I want to delve into the Spark Streaming API. 
 
@@ -17,7 +17,7 @@ I'm quite a big fan of Spark. I recently did a post on [improving spark code per
 
 The Spark Streaming API works in a micro batch mode. Processing a micro batch a time but in a distributed mode. This means you can perform computations on very small batches of data, over and over, replacing or updating the result in near real time. 
 
-![Spark Streaming](http://spark.apache.org/docs/latest/img/streaming-flow.png)
+![Spark Streaming](http://spark.apache.org/docs/latest/img/streaming-flow.jp2)
 
 *Picture taken from [official spark docs](http://spark.apache.org/docs/latest/streaming-programming-guide.html)
 

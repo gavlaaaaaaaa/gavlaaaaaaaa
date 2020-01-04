@@ -8,7 +8,7 @@ tags:
 - productivity
 ---
 
-![Clear Environment, Clear Mind](../images/clear_env.png)
+![Clear Environment, Clear Mind](../images/clear_env.jp2)
 
 [Last week I talked about Disconnecting](http://www.lewisgavin.co.uk/Disconnect/), how I've achieved it and why I've started to do it. This week I wanted to concentrate on improvements I have made to my non digital environments. 
 

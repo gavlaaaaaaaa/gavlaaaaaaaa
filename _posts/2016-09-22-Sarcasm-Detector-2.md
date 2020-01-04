@@ -9,7 +9,7 @@ tags:
 - spark 
 ---
 
-![Sarcasm detector in Spark using Machine Learning](../images/sarcasm2.png)
+![Sarcasm detector in Spark using Machine Learning](../images/sarcasm2.jp2)
 
 In the last post a model was trained to detect sarcasm using just a small amount of sample data. In order for the model to be useful generically, in a larger amount of scenarios, it requires more training data that comes from a wider amount of sources. This is so the model understands many different types of sarcasm. Creating this data by hand would take a long time and would be suspect to personal bias. To solve this problem, twitter can be used to train the model by using any tweets that contain #sarcasm or #sarcastic as my sarcastic training data.
 

@@ -58,11 +58,11 @@ This is a supported option with an out of the box Data Pipeline that has been pr
 
 Simply go into Data Pipeline within the AWS console and create a new pipeline. You will see in the templates drop down that there is a template preconfigured to export DynamoDB data to S3.
 
-![](https://cdn-images-1.medium.com/max/800/1*Yf6XjQyLoID_ED-6pYrtlQ.png)
+![](https://cdn-images-1.medium.com/max/800/1*Yf6XjQyLoID_ED-6pYrtlQ.jp2)
 
 What this does is create a pipeline that spins up an EMR cluster to run a Map Reduce job that processes data from DynamoDB and puts it into a file format to be dumped into S3. As shown in the diagram below.
 
-![Datapipeline — Dynamo to S3: [Source](https://docs.amazonaws.cn/en_us/amazondynamodb/latest/developerguide/DynamoDBPipeline.html)](https://cdn-images-1.medium.com/max/800/1*RVxpvzTFs-fQmIyxETXEsA.png)
+![Datapipeline — Dynamo to S3: [Source](https://docs.amazonaws.cn/en_us/amazondynamodb/latest/developerguide/DynamoDBPipeline.html)](https://cdn-images-1.medium.com/max/800/1*RVxpvzTFs-fQmIyxETXEsA.jp2)
 Datapipeline — Dynamo to S3: [Source](https://docs.amazonaws.cn/en_us/amazondynamodb/latest/developerguide/DynamoDBPipeline.html)
 
 You can obviously extend this pipeline to then copy that S3 data into Redshift. Note that the export will be in JSON format so you may need to provide a JSON paths file to help with the load to Redshift.

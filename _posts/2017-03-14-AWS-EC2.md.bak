@@ -1,0 +1,80 @@
+--- 
+layout: post 
+title:  Amazon EC2
+author: Lewis Gavin 
+comments: true 
+tags: 
+- cloud
+- aws
+---
+
+![AWS EC2](../images/ec2.png)
+
+In [last weeks blog post](http://www.lewisgavin.co.uk/AWSOverview), I documented all I had learned at a high level about AWS and the details of how to control access to AWS through Identity Access Management (IAM).
+
+This week I will be documenting what I've learned about Amazon Elastic Compute Clouder (EC2).
+
+
+## What is EC2?
+
+EC2 is a web service for dynamic compute capability in the cloud. It allows you to provision servers in minutes with a dynamic pricing model allowing you to scale up and down based on real time requirements. These servers can be created with virtually any operating system and storage capability.
+
+There are several pricing options when provisioning an EC2 instance, these are outlined as follows:
+
+1. On Demand - You pay a fixed hourly rate and can terminate at any time. This is the most popular as you pay nothing upfront and have no long term commitment
+2. Reserved - You reserve a certain capacity and number of instances for 1 to 3 years what provides a heavy discount.
+3. Spot - you bid your own price for capacity. Prices fluctuate based on availability etc, so might be cheaper to provision high capacity over night when usage is low
+4. Dedicated Hosts - You get a physical personal server that can be useful when you have existing server based licenses that do not support multi-tenant virtualisation. 
+
+One thing to remember with Spot pricing is that if you personally terminate your EC2 spot instance you will be charged for any hour that the instance was running, even if you stop it 20 minutes in. However if Amazon terminates it, because the spot price was above your threshold for example, you will not be charged for the full hour.
+
+
+## DR MC GIFT PX - Instance Types
+
+DR MC GIFT PX is an acronym to remind you of the instance types available within EC2. I learned this from the [AWS Developer Associate course on Udemy](https://www.udemy.com/aws-certified-developer-associate/)
+
+- **D** D2 for **D**ense Storage - Hadoop/Warehousing
+- **R** R4 for Memory Optimised (**R**AM) - Memory intesive apps/db's
+- **M** M4 for General Purpose (**M**ain choise)
+- **C** C4 for **C**ompute Optimised - CPU intensive apps
+- **G** G2 for **G**raphics Intesnive - Video encoding
+- **I** I2 for High Speed (**I**OPS) - NoSQL DB's/Data Warehousing
+- **F** F1 for **F**ield programmable gate array - Hardware acceleration
+- **T** T2 for Lowest cost general purpose (**T**2 Micro)
+- **P** P2 for Graphics/General Purpose GPU (**P**ics)- Machine Learning    
+- **X** X1 for Memory Optimised (E **X**treme RAM)
+
+## EBS - Elastic Based Storage
+
+EBS allows you to attach storage to your EC2 instances and use them any normal way you could use block storage (file system, db etc.). They are automatically replicated in case of a failure and are placed in a specific availability zone.
+
+There are a number of types:
+- General Purpose SSD (GP2)
+- Provisioned IOPS SSD - For I/O use cases like large db's/NoSQL db's
+- Throughput Optimised HDD (ST1) - useful for sequential data (big data, log data) **These can't be boot volumes**
+- Cold Hard Disk Drives (SC1) - Low cost for infrequent access - maybe archived file server **These cant be boot volumes**
+- Magnetic standard - lowest cost of all bootable volumnes. Ideal for infrequent access
+
+
+## Steps to set up an EC2 Instance
+
+1. Log into AWS Console
+2. Select EC2 
+3. Click Launch Instance
+4. Choose AMI (template with pre-configured OS, application server and apps) - mainly used Amazon Linux AMI
+5. Choose an instance type from DR MC GIFT PX - Mainly used T2 Micro
+6. Configure Instance Details. How many instances, network (create VPC), IAM role for security and even add a startup script to be run when the instance is created
+7. Add EBS Storage by selecting one of the above (Root disk has to be bootable and cant be encrypted - need to encrypt via third party tool)
+8. Add tags to help with Categorisation later on
+9. Add a security group to define which protocols are open on the instance (SSH, HTTP, HTTPS etc.)
+10. Launch!
+
+Once live you can grab the public IP address and providing you opened SSH within your security group you can SSH from a command line/putty. To do this you will also need a KeyValue pair to authenticate your SSH session.     
+
+
+
+
+
+
+
+

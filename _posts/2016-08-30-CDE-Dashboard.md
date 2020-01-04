@@ -9,7 +9,7 @@ tags:
 - pentaho 
 ---
 
-![Big Data Journey 4](../images/ctools-bdj4.png)
+![Big Data Journey 4](../images/ctools-bdj4.jp2)
 
 This is the final post in the Big Data Journey blog series. So far we have looked at [installing CDH and Pentaho BA using Docker](http://www.lewisgavin.co.uk/CDH-Docker), [ingesting data with Kafka and Spark](http://www.lewisgavin.co.uk/Data-Ingestion-Kafka-Spark) and then in the last post, we looked at [transforming and storing that data in Apache Kudu](http://www.lewisgavin.co.uk/Kudu-Spark). In this final post, we will look at reporting on top of our beautifully ingested and transformed, real time data feed. This will involve using Pentaho CTools to build a simple chart that will update based on the latest picture within our data feed.
 
@@ -70,7 +70,7 @@ function (){
 
 Save your progress and click the preview button (top right), you should see something like the following depending on what words are within your table.
 
-![Ctools test](../images/ctools-test.png)
+![Ctools test](../images/ctools-test.jp2)
 
 This example gives you an idea of how to get data back into a HTML element if you ever wanted to integrate your own website into CTools. In the next section we will look at building a CTools dashboard using the community charts.
 
@@ -96,7 +96,7 @@ HtmlObject = **chart_column** (the name you chose for your column earlier).
 
 Save your progress and click preview. You should be able to see a static Bar Chart showing your ngrams.
 
-![Bar Chart](../images/ctools_chart.png)
+![Bar Chart](../images/ctools_chart.jp2)
 
 Now to make it work in real time and update along with our data, we need to tweak a few settings slightly.
 

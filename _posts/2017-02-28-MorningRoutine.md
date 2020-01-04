@@ -8,7 +8,7 @@ tags:
 - productivity
 ---
 
-![Morning Routine](../images/morning_routine.png)
+![Morning Routine](../images/morning_routine.jp2)
 
 
 As promised, in 2017 I've already started writing more posts about self improvement and productivity. I've laid down the [foundation for my 2017 goals](http://www.lewisgavin.co.uk/Goals-2017/) and discussed some [tips and the benefits of disconnecting digitally](http://www.lewisgavin.co.uk/Disconnect/). The next logical step was to talk about [improvements to my every day environments](http://www.lewisgavin.co.uk/Clear-Mind/).

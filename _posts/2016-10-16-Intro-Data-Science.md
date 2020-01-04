@@ -9,7 +9,7 @@ tags:
 - bigdata 
 ---
 
-![Intro to Data Science](../images/datascience101.png)
+![Intro to Data Science](../images/datascience101.jp2)
 
 We've been recently looking at how to introduce data science concepts to the wider team, including business analysts, management and engineers.
 
@@ -22,7 +22,7 @@ Well the term Data Science itself is heavily overloaded. It's used in a bunch of
 Bearing this in mind, we sat and tried to define what Data Science means to **us**, as depending on who you ask the answer will be slightly different. These answers range from using mathematical models to solve problems with data, investigating data to find insights, using machine learning to solve complex problems... and the list goes on.
 What we wanted was a concise definition that brings together all these key Data Science concepts into one simple definition.
 
-![data science venn diagram](https://4.bp.blogspot.com/-0cbXveb1J_0/V-FtjJZ4rqI/AAAAAAAAMHM/bS32Pio2a1IFOyp5T86S0jiyB-3KAN1iwCEw/s1600/download%2B%25281%2529.png)
+![data science venn diagram](https://4.bp.blogspot.com/-0cbXveb1J_0/V-FtjJZ4rqI/AAAAAAAAMHM/bS32Pio2a1IFOyp5T86S0jiyB-3KAN1iwCEw/s1600/download%2B%25281%2529.jp2)
 
 *"Data Science is the exploration, extraction and visualisation of insights from a variety of data types"* - and when you look at this, it's no different to what used to be called Business Intelligence or Business Analytics. Funnily enough - we don't think it is, it's a rebranding using some techniques that are exactly the same and others that are slightly matured due to the introduction of machine/deep learning techniques and higher computational power/Big Data/.
 
@@ -72,5 +72,5 @@ For some numbers based results you may find simple bar or line charts suffice. F
 
 *Just remember to keep to keep your visuals clean, practical and easy to understand.* 
 
-![Data science core concepts infographic](../images/dscoreconcepts.png)
+![Data science core concepts infographic](../images/dscoreconcepts.jp2)
 
