@@ -10,7 +10,7 @@ tags:
 - bigdata
 ---
 
-![Data Warehousing: Simplified](https://cdn-images-1.medium.com/max/2560/1*iAEiC9hi4RnE-u9UDHKr3A.jpeg)
+![Data Warehousing: Simplified](../images/architectwarehouse.jpg)
 Data Warehousing: Simplified
 
 On the surface, it may seem like a lot has changed in recent years in regards to data collection, storage and warehousing. The introduction and takeover of NoSQL, “Big Data”, Graphing and Streaming technologies may appear to have changed the landscape, but there are some fundamentals that remain.
