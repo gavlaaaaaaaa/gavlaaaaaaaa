@@ -24,20 +24,9 @@ layout: default
       </div>
  
   <br>
-  <br>
-<div>
- <div style="float:left;">
-  <a class="twitter-follow-button" href="https://twitter.com/gavlaaaaaaaa" data-size="large" data-show-count="false">Follow</a>
-<a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-via="gavlaaaaaaaa" data-show-count="false">Share</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </a>    
+ <div>
+  {% include social-buttons.html %}
  </div>
-
- <div style="float:left;">
-<a data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a>
-<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
- </div>
-</div>
-<br><br>
  <h1> 
 	{{ page.title }}
   </h1>
@@ -82,9 +71,9 @@ layout: default
   <div class="entry">
     {{ content }}
     <br>
-    <a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-via="gavlaaaaaaaa" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-    <a data-pocket-label="pocket" data-pocket-count="vertical" class="pocket-btn" data-lang="en"></a>
-<script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script>
+ <div>
+  {% include social-buttons.html %}
+ </div>
     <br>
 
     {% include amazon/electronics_banner.html %}

@@ -123,17 +123,9 @@ img {
 }
 
 .date {
-  padding: 20px 0 0 0;
-  float: left;
   font-style: italic;
   color: $gray;
 }
-
-.cert { 
-  padding: 20px 0 0 0;
-  float: right;  
-}
-
 
 // Specify the color of the selection
 ::-moz-selection {
@@ -155,20 +147,6 @@ img {
 
 .clearfix:after {
     clear: both;
-}
-
-table{
-    border-collapse: collapse;
-    border-spacing: 0;
-    border:2px solid #000000;
-}
-
-th{
-    border:2px solid #000000;
-}
-
-td{
-    border:1px solid #000000;
 }
 
 /*********************/
@@ -261,7 +239,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: #000;
+    color: $darkGray;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -271,7 +249,7 @@ nav {
   }
     @include mobile {
       margin: 0 10px;
-      color: #000;
+      color: $blue;
     }
   }
 }
@@ -321,7 +299,33 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+#share {
+    margin: 10px 0 0 0;
 
+    h2 {
+        font-size: 1.2em;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            display: inline;
+
+            a {
+                &:hover {
+                    text-decoration: none;
+                }
+
+                svg {
+                    width: 50px;
+                    height: 50px;
+                    fill: #333;
+                }
+            }
+        }
+    }
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
