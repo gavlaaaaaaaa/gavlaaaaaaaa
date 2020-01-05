@@ -9,7 +9,7 @@ tags:
 - database 
 ---
 
-![NoSQL databases vs Relational Database RDBMS](../images/nosqlvsrdbms.jpg)
+![NoSQL databases vs Relational Database RDBMS](https://www.lewisgavin.co.uk/images/nosqlvsrdbms.jpg)
 
 This post will be looking into the differences and benefits of NoSQL databases in comparison to traditional databases. After exploring this a little in my [previous post on Apache HBase](http://www.lewisgavin.co.uk/HBase-Intro) I thought it was worth a full post.
 

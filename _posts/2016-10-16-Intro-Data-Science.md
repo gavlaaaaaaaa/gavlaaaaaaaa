@@ -9,7 +9,7 @@ tags:
 - bigdata 
 ---
 
-![Intro to Data Science](../images/datascience101.jpg)
+![Intro to Data Science](https://www.lewisgavin.co.uk/images/datascience101.jpg)
 
 We've been recently looking at how to introduce data science concepts to the wider team, including business analysts, management and engineers.
 
@@ -36,7 +36,7 @@ Data used to be seen as something that was collected by scientist running experi
 
 As a Data Scientist, your job role is perfectly explained by that short passage above. You collect some data, explore it and run some "experiments" on a small sample, take your findings to a larger sample, learn something new and then represent your findings in a way that provides insight for the end user. 
 
-![Data everywhere](http://www.mememaker.net/static/images/memes/4489127.jpg)
+![Data everywhere](http://www.mememaker.net/stathttps://www.lewisgavin.co.uk/images/memes/4489127.jpg)
 
 The reason this has become more popular though is down to the vast amounts of data that is available to us. Data is easy to store, computational power is cheap and people interact with services that produce data all day every day. Pretty much every item we interact with on a daily basis has become data producer - and if it isn't now, it most certainly will be. 
 
@@ -72,5 +72,5 @@ For some numbers based results you may find simple bar or line charts suffice. F
 
 *Just remember to keep to keep your visuals clean, practical and easy to understand.* 
 
-![Data science core concepts infographic](../images/dscoreconcepts.jpg)
+![Data science core concepts infographic](https://www.lewisgavin.co.uk/images/dscoreconcepts.jpg)
 

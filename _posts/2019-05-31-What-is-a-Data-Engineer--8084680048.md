@@ -10,7 +10,7 @@ tags:
 - dataengineer
 ---
 
-![Photo by [Franck V.](https://unsplash.com/@franckinjapan?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](../images/whatisdataengineer.jpg)
+![Photo by [Franck V.](https://unsplash.com/@franckinjapan?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://www.lewisgavin.co.uk/images/whatisdataengineer.jpg)
 Photo by [Franck V.](https://unsplash.com/@franckinjapan?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 The job title Data Engineer doesn’t always come with the same sexy connotations as something like Data Scientist. However looks aren’t everything and the work that a Data Engineer does, actually makes up a significant portion of the work carried out by a Data Scientist.

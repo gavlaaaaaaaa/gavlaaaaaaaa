@@ -8,7 +8,7 @@ tags:
 - aws
 ---
 
-![Dynamo DB](../images/dynamodb.jpg)
+![Dynamo DB](https://www.lewisgavin.co.uk/images/dynamodb.jpg)
 
 This week I'm recapping what I've learned about Amazon's NoSQL database offering, DynamoDB. If you want to see what else I've learned about AWS over the recent weeks then check out my [AWS Overview](http://www.lewisgavin.co.uk/AWSOverview), [EC2 Intro](http://www.lewisgavin.co.uk/AWS-EC2) and [Amazon Redshift at a Glance](http://www.lewisgavin.co.uk/Amazon-Redshift) and [Amazon S3](http://www.lewisgavin.co.uk/AWS-S3) posts.
 
@@ -28,7 +28,7 @@ A DynamoDB database can be broken down into 3 abstractions:
 - Items: An item is just like a row in a normal database
 - Attributes: A column or field in a normal database
 
-![DynamoDB Table](../images/dynamotable.jpg)
+![DynamoDB Table](https://www.lewisgavin.co.uk/images/dynamotable.jpg)
 
 [**Example borrowed from AWS Certified Developer Associate Course: ACloud Guru**](https://acloud.guru/learn/aws-certified-developer-associate)
 

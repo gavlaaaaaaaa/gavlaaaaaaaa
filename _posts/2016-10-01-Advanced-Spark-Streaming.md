@@ -9,7 +9,7 @@ tags:
 - spark 
 ---
 
-![Scaling Spark streaming](../images/scaling_spark.jpg)
+![Scaling Spark streaming](https://www.lewisgavin.co.uk/images/scaling_spark.jpg)
 
 In previous posts I have looked at [Spark Streaming](http://www.lewisgavin.co.uk/Spark-Streaming/) and [improving the performance of Spark applications](http://www.lewisgavin.co.uk/Spark-Performance/).
 

@@ -9,7 +9,7 @@ tags:
 - R 
 ---
 
-![Data Science Hackathon](../images/hackathon.jpg)
+![Data Science Hackathon](https://www.lewisgavin.co.uk/images/hackathon.jpg)
 
 To spread the recent data science techniques used in certain projects at work, we decided to host our first Hackathon! The idea was to take a day off from the usual day job so everyone had the opportunity to learn something new and have some fun, in a safe environment.
 

@@ -22,24 +22,24 @@ _NOTE: although MySQL is used as an example, this approach can be applied to alm
 In order to get any data from MySQL we will need a list of tables to pull the data from, and in order to do this we need to set up a connection to the MySQL database.
 
 We need to create a new transformation and add a _Get Table Names_ step, then double click to see how we configure it.
-![Get Table Names](../images/Pentaho/get_tables_1.jpg)
+![Get Table Names](https://www.lewisgavin.co.uk/images/Pentaho/get_tables_1.jpg)
 
 The second field asks for a connection, and to the right we have the choice of clicking _new_.
 This brings up the database connection window where we can configure our connection. To connect to my local instance of MySQL my settings were fairly trivial.
 
 _NOTE: You can test your connection from by clicking Test to make sure everything is correct!_
 
-![MySQL Connection](../images/Pentaho/get_tables_2.jpg)
+![MySQL Connection](https://www.lewisgavin.co.uk/images/Pentaho/get_tables_2.jpg)
 
 Now we can start to fill in the rest of the _Get Table Names_ step. I have a MySQL database named **test** that I am looking to migrate and I am only interested in the tables. If you wish to migrate views etc. then select those settings appropriately.
 
 Then in the _Output fields_ section, I have filled in the _Tablename fieldname_ field with a field name for the list of tables that this step will output.
 
-![Get Tables Names Complete](../images/Pentaho/get_tables_3.jpg)
+![Get Tables Names Complete](https://www.lewisgavin.co.uk/images/Pentaho/get_tables_3.jpg)
 
 I don't want to use the table names that this step produced in this transformation - so I will simply connect it to a _Copy Rows to Result_ step ready to use at a later time. This completes this transformation - run it to check you get the list of table names you are expecting and save it with the name **get_tables**.
 
-![Get Table Names Trans](../images/Pentaho/get_tables_4.jpg)
+![Get Table Names Trans](https://www.lewisgavin.co.uk/images/Pentaho/get_tables_4.jpg)
 
 ## Step 2 - Setting up the Job
 We now have our intitial transformation that obtains a list of all the tables within a database for us.
@@ -48,11 +48,11 @@ Now we can set up the over arching job that will call the transformation we just
 
 Set up a job as below - don't worry about what the second transformation is yet, we'll be building that in a moment.
 
-![Job Overview](../images/Pentaho/job_overview_1.jpg)
+![Job Overview](https://www.lewisgavin.co.uk/images/Pentaho/job_overview_1.jpg)
 
 The first transformation will just be pointing at the get\_tables transformation we just created and doesn't require any more configuration. The second transformation is currently pointing at nothing, but we can configure it ready and go through the reasons why. Double click it and go to the _Advanced_ tab.
 
-![Transformation Loop](../images/Pentaho/job_overview_2.jpg)
+![Transformation Loop](https://www.lewisgavin.co.uk/images/Pentaho/job_overview_2.jpg)
 
 Here we just need to tick **Execute for every input row**. What this does is essentially tell Pentaho that for every row that is output from the previous transformation, execute this transformation that number of times, like a loop. 
 
@@ -62,7 +62,7 @@ _Why would we want to do this you might be asking?!_
 
 Flick to the Parameters tab and I'll explain why.
 
-![Transformation Params](../images/Pentaho/job_overview_3.jpg)
+![Transformation Params](https://www.lewisgavin.co.uk/images/Pentaho/job_overview_3.jpg)
 
 What we are doing here is saying that we want to pass a paremeter called _table_ into the transformation, and we are going to get its value from the **Stream** using the _Stream column name_ field. This allows us to pick up our **tablename** column we created in the previous transformation. 
 
@@ -82,13 +82,13 @@ To do this simply double click anywhere on the grid, and in the window that pops
 
 Now thats out the way, we will need a _Table Input_ step and a _Hadoop File Output_ step.
 
-![Data Migration Steps](../images/Pentaho/data_migrate_1.jpg)
+![Data Migration Steps](https://www.lewisgavin.co.uk/images/Pentaho/data_migrate_1.jpg)
 
 If you're wondering what the yellow label is in the background, it is something called a **Note**. Notes allow you to add comments to transformations and jobs, the same way you would add comments sections of code. To create one, simply right click on any blank space within the grid and click _New note_.
 
 Anyway... I told you it would be simple right? Those two steps will do all the hard work in order to extract the data from each of our tables and write it to HDFS. Lets see how we configure them - double click the _Table input_ step.
 
-![Table Input](../images/Pentaho/data_migrate_2.jpg)
+![Table Input](https://www.lewisgavin.co.uk/images/Pentaho/data_migrate_2.jpg)
 
 First things first, we need to select a connection from the drop down box. Our MySQL connection was configured in the previous transformation, so we can simply re-use this by selecting it.
 
@@ -98,13 +98,13 @@ One other thing to note from this step is the **Limit size**. By default it is s
 
 On to the _Hadoop File Output_ step, lets double click the step to configure it.
 
-![Hadoop File Output](../images/Pentaho/data_migrate_3.jpg)
+![Hadoop File Output](https://www.lewisgavin.co.uk/images/Pentaho/data_migrate_3.jpg)
 
 In this step we need to give a filename where we would like to output the data. Note you need to give the full hdfs path with host and port like shown. You can also use Variables/Parameters in this field (or any field with the grey diamond and red $ in it for that matter) so I used the table name as a folder name and also the name of the file.
 
 The extension field will simply add a dot and the extension, in our case _TABLENAME.txt_. All the other steps are left as default, but they are pretty self explanitory if you wish to use them. Next we will need to configure hte _Content_ tab.
 
-![Hadoop file output 2](../images/Pentaho/data_migrate_4.jpg)
+![Hadoop file output 2](https://www.lewisgavin.co.uk/images/Pentaho/data_migrate_4.jpg)
 
 Here we need specify how the file is laid out. I want my files to be pipe delimited, as I know I dont have pipes in the data, I don't want a header or footer and I want the file to be Unix formatted. Easy...
 

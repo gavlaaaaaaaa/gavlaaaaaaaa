@@ -9,7 +9,7 @@ tags:
 - sas 
 ---
 
-![SAS Forum UK 2016 Birmingham](../images/sas-uk.jpg)
+![SAS Forum UK 2016 Birmingham](https://www.lewisgavin.co.uk/images/sas-uk.jpg)
 *Image taken from [twitter](https://pbs.twimg.com/media/CtckOlzXYAkiwCz.jpg:large)*
 
 This post will share my thoughts from the UK SAS Forum!
@@ -48,7 +48,7 @@ Their development teams also take 30 minutes every 2 weeks to do some "housekeep
 
 Yes - Machine Learning is possible in SAS. They have rebranded these capabilities in SAS Viya as Visual Data Mining and Machine Learning (VDMML). The way they defined Machine Learnin was that its a process that looks to convert raw data into decisions. The idea being that you train a machine with no human interaction where possible and re-inforce the learning to improve the accuracy of the results.
 
-![SAS Machine Learning and Data Mining](../images/sas_ml.jpg)
+![SAS Machine Learning and Data Mining](https://www.lewisgavin.co.uk/images/sas_ml.jpg)
 
 VDMML supports both structured and unstructured data. By unstructured data this means not only text, but images, sound or videos too. The 3 mains areas that are covered are Data Prep, Machine Learning Algorithms and Model Scoring (how do you deploy your model). 
 

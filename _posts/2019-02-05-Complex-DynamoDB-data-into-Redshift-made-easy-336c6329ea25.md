@@ -11,7 +11,7 @@ tags:
 
 
 
-![Photo by [Rodion Kutsaev](https://unsplash.com/@frostroomhead?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](../images/complexdynamo.jpg)
+![Photo by [Rodion Kutsaev](https://unsplash.com/@frostroomhead?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://www.lewisgavin.co.uk/images/complexdynamo.jpg)
 Photo by [Rodion Kutsaev](https://unsplash.com/@frostroomhead?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 It’s fairly common practice to store JSON payloads in DynamoDB. You have a few data storage options when doing this: storing the whole payload as a string or storing it within a DynamoDB Map.

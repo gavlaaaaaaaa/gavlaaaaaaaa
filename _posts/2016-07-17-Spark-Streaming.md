@@ -9,7 +9,7 @@ tags:
 - realtime 
 ---
 
-![Spark streaming header](../images/sparkstreaming.jpg)
+![Spark streaming header](https://www.lewisgavin.co.uk/images/sparkstreaming.jpg)
 
 I'm quite a big fan of Spark. I recently did a post on [improving spark code performance] (http://www.lewisgavin.co.uk/Spark-Performance) and in this post, I want to delve into the Spark Streaming API. 
 

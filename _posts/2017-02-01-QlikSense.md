@@ -9,7 +9,7 @@ tags:
 - qlik
 ---
 
-![Drag and Drop Visualisations with QlikSense](../images/qliksense.jpg)
+![Drag and Drop Visualisations with QlikSense](https://www.lewisgavin.co.uk/images/qliksense.jpg)
 
 Recently I downloaded QlikSense. The plan was to play around with the tool and see how it worked. I started off with a very simple problem. Could I load some data into a MySQL database, in a relational schema, and use QlikSense to produce some quick visualisations.
 
@@ -25,7 +25,7 @@ Once all the relationship are configured you are presented with a **Sheet**. A s
 
 To achieve this you just had to drag a bar chart in from the left hand menu. This gives you the option to supply a dimension and a measure. From my database tables I selected **Month** as my dimension and **Sum(Sales)** as my measure. I only had a single months worth of test data in my database, which produced the following.
 
-![Simple example in QlikSense](../images/qlik_simple.jpg)
+![Simple example in QlikSense](https://www.lewisgavin.co.uk/images/qlik_simple.jpg)
 
 Not earth shattering, however within a few minutes I was already up and running.
 
@@ -43,7 +43,7 @@ Sum( {$<[supplier_fk-supplier_pk] = {1}>} sales)
 
 This expression is still performing a sum of the sales, but only where the supplier key is equal to 1. You then add multiple of these Measures are change the filter for the sum. Very quickly you now have a more advanced visualisation showing the sum of sales per supplier, per month.
 
-![Advanced supplier aggregation example in QlikSense](../images/qlik_advanced.jpg)
+![Advanced supplier aggregation example in QlikSense](https://www.lewisgavin.co.uk/images/qlik_advanced.jpg)
 
 ## Using Extensions
 
@@ -53,7 +53,7 @@ These visualisations will then become available in the **extensions** tab on the
 
 Once installed, I dragged it next to my original graph and started playing. It immediately presents you with the option for 2 dimensions and a single measure. I selected Date and then Supplier ID as my two dimensions, and the Avg(Sales) as my measure. Now my dashboard will show the me not only the sum of sales for the month per supplier, but also the sales average.
 
-![Radar extension supplier comparison in QlikSense](../images/qlik_extension.jpg)
+![Radar extension supplier comparison in QlikSense](https://www.lewisgavin.co.uk/images/qlik_extension.jpg)
 
 ## Wrap up
 

@@ -9,7 +9,7 @@ tags:
 - python
 ---
 
-![Face Recognition with Deep Learning](../images/face_recognition.jpg)
+![Face Recognition with Deep Learning](https://www.lewisgavin.co.uk/images/face_recognition.jpg)
 
 In my previous two posts I looked at [Detecting faces within images](http://www.lewisgavin.co.uk/FaceRecognition) and then [Data prep](http://www.lewisgavin.co.uk/ImageDataPrep) to extract the face from the image and align it so that regardless of the rotation of the face, the facial features were always aligned centrally.
 
@@ -37,7 +37,7 @@ The first step was to get some more data. I didn't want to spend forever digging
 
 I run each of the images through the `face_skew.py` python application I wrote in the [previous post](http://www.lewisgavin.co.uk/ImageDataPrep). This gave me a total of 6 aligned images. 
 
-![Me and Brad Pitt with Face Skew](../images/me_bradp_skew.jpg)
+![Me and Brad Pitt with Face Skew](https://www.lewisgavin.co.uk/images/me_bradp_skew.jpg)
 
 I stored these images in a folder called aligned_faces each within their own sub directory.
 

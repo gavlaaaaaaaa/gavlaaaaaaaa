@@ -9,7 +9,7 @@ tags:
 - pentaho 
 ---
 
-![Data-Ingestion-Kafka-Spark-Part2](../images/bdj-part2.jpg)
+![Data-Ingestion-Kafka-Spark-Part2](https://www.lewisgavin.co.uk/images/bdj-part2.jpg)
 
 Welcome to part 2 of the series. In [part 1](http://www.lewisgavin.co.uk/CDH-Docker) we looked at installing a CDH quickstart docker container along with Pentaho BA. Now we have some basic infrastructure in place, it's time to start thinking about data!
 

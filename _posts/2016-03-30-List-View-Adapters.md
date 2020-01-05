@@ -112,7 +112,7 @@ My implementation is as follows - it uses the parent inflater to create its `Vie
 
 Heres a screenshot of what this will look like.
 
-<img src="../images/Gymify/GymifyDayList.jpg" alt="DayListView" style="width: 300px;" />
+<img src="https://www.lewisgavin.co.uk/images/Gymify/GymifyDayList.jpg" alt="DayListView" style="width: 300px;" />
 
 The code for this class as I said is really simple.
 

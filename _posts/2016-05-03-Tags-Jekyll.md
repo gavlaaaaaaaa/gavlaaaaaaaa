@@ -19,11 +19,11 @@ Within blogs they can be used to aggregate posts into categories, meaning each p
 
 On my sites landing page [here](../) you will see that every blog post has one or more tags listed just below the post title like so
 
-![Tags homepage](../images/Jekyll/tags_home.jpg) 
+![Tags homepage](https://www.lewisgavin.co.uk/images/Jekyll/tags_home.jpg) 
 
 When you click on a tag - in the following example I click on the **android** tag - an index page is loaded listing all the other pages that also contain the **android** tag, it also lists all other tags on those pages too.
 
-![Tags index](../images/Jekyll/tags_index.jpg)
+![Tags index](https://www.lewisgavin.co.uk/images/Jekyll/tags_index.jpg)
 
 I will now explain how to tag pages and replicate this exact same functionality within your site.
 

@@ -8,7 +8,7 @@ tags:
 - performance
 ---
 
-![Spark Performance](../images/sparkperf.jpg)
+![Spark Performance](https://www.lewisgavin.co.uk/images/sparkperf.jpg)
 
 Recently I attended the Strata and Hadoop World Conf in London, you can see my post on the day [here](http://www.lewisgavin.co.uk/Strata-Hadoop/). As part of the afternoon technical sessions, I attended a talk by Holden Karau on scaling Spark applications. 
 
@@ -18,7 +18,7 @@ The talk gave me a lot of good tips to take away and implement into my own Spark
 
 RDD's can sometimes be expensive to materialise. Even when they're not, you wouldn't want to remake them over and over again. Caching RDD's, especially when expensive, allows reuse without a performance overhead. Take the example below. 
 
-![Spark caching](../images/spark-notebook-cache.jpg)
+![Spark caching](https://www.lewisgavin.co.uk/images/spark-notebook-cache.jpg)
 
 
 *Created using [spark notebook](http://spark-notebook.io/)*
@@ -59,7 +59,7 @@ DataFrames are more efficient than RDD's in many use cases for a number of reaso
 
 DataFrames also have their own optimizer that is able to look inside operations. Regular spark can't do this - Holden's example stated that it wouldn't know the difference between `(min(_,_))` and `(append(_,_))`. 
 
-![Group vs Reduce vs RDD](../images/reducevsgroup.jpg)
+![Group vs Reduce vs RDD](https://www.lewisgavin.co.uk/images/reducevsgroup.jpg)
 
 *Image copied from [holden](http://www.slideshare.net/hkarau/beyond-shuffling-strata-london-2016)*
 

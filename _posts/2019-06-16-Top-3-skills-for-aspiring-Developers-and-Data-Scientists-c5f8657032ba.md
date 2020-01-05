@@ -9,7 +9,7 @@ tags:
 - skills
 ---
 
-![Photo by [Glenn Carstens-Peters](https://unsplash.com/@glenncarstenspeters?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](../images/top3skills.jpg)
+![Photo by [Glenn Carstens-Peters](https://unsplash.com/@glenncarstenspeters?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://www.lewisgavin.co.uk/images/top3skills.jpg)
 Photo by [Glenn Carstens-Peters](https://unsplash.com/@glenncarstenspeters?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 As I’ve grown in experience working in the tech industry, there are a few skills that I’d recommend to anyone starting out or anyone looking to break into the field. Regardless of job role, these skills will be useful in one way or another for Software Engineers, Data Scientists, Web Developers and many more.

@@ -8,7 +8,7 @@ tags:
 - machine learning
 ---
 
-![Clustering Web Users with K-Means](../images/kmeans.jpg)
+![Clustering Web Users with K-Means](https://www.lewisgavin.co.uk/images/kmeans.jpg)
 
 In recent machine learning posts, I've been concentrating on supervised learning algorithms such as Naive Bayes or SVM where you train a model with pre-classified data. This model is then used to predict outcomes on future data.
 

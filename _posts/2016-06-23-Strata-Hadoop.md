@@ -8,7 +8,7 @@ tags:
 - conference
 ---
 
-![day one](../images/strata/dayone.jpg)
+![day one](https://www.lewisgavin.co.uk/images/strata/dayone.jpg)
 
 ## Thursday 2nd June
 
@@ -16,7 +16,7 @@ Strata + Hadoop world program chairs: Roger Magoulas, Doug Cutting and Alistair 
 
 The keynotes started with speakers from many of the big players within the data space. For me, there were two standout keynotes from the day. Joe Hellerstein gave a talk on Context Services and finding the truth from a large lake of data. Stuart Russell followed this with a talk on AI. Stuart talked about the concerns with AI and how we should be thinking about solving them.
 
-![keynotes](../images/strata/keynotes.jpg)
+![keynotes](https://www.lewisgavin.co.uk/images/strata/keynotes.jpg)
 
 ### Modern Data Strategy at CERN  - (Mike Olsen, Cloudera)
 
@@ -33,7 +33,7 @@ Martin believes it's important to keep the data as raw as possible. It's interpr
 Joe delivered an impressive presentation on the quest for the truth by an “IT Knight” and a “Data Science Warrior”. This was definitely one of the best delivered keynotes. He explained how “IT Knights” can ask philosophical questions e.g. “What is the meaning of life?” and expect an exact answer. 
 On the flip side, a “Data Science Warrior” bases answers on probability and prediction. These two versions off the truth often conflict and this is why context services are on the rise. There are many versions of the truth and what matters is the context. IT Knights should work with Data Science Warriors to sift through the large lake of data to find the contextual truth.
 
-![whats the truth](../images/strata/joekeynote.jpg)
+![whats the truth](https://www.lewisgavin.co.uk/images/strata/joekeynote.jpg)
 
 ### Saving Whales with Deep Learning - (Piotr Niedźwiedź, deepsense.io)
 
@@ -44,7 +44,7 @@ My biggest take away from this talk was the flexibility of Deep Learning algorit
 
 96% of Cancer data is siloed by different organisations and institutions. Moving this data between users can be difficult due to not only its size, but its protection. Gilad presented the idea of a “huge map reduce” paradigm to send analytics to the data instead. Yet this can be difficult, again due to concerns around securing the data. To enable security Intel built a Collaborative Cancer Cloud to distribute analytics across businesses.
 
-![ccc](../images/strata/ccc.jpg)
+![ccc](https://www.lewisgavin.co.uk/images/strata/ccc.jpg)
 
 ### The future of (Artificial) Intelligence - (Stuart Russell, UC Berkeley)
 
@@ -52,4 +52,4 @@ AI is already out there and improving as shown with the alpha go project. There 
 
 AI will make better decisions and solve some of humanities hardest problems. This is due to the vast amount of data and infinite amount of “thinking time” available to AI systems. To ensure these decisions are human friendly, we need to align our needs with the AI. Stuart recited the story of King Midas who wished that everything he touched turned into gold - apart from his water, food, children etc. It's as if a robot carried out this wish and this is not the AI we want. We want AI that has common sense and doesn't take everything literally yet understands it’s purpose is to benefit humans.
 
-![robots](../images/strata/aikeynote.jpg)
+![robots](https://www.lewisgavin.co.uk/images/strata/aikeynote.jpg)

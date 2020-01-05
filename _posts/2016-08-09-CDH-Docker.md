@@ -9,7 +9,7 @@ tags:
 - pentaho 
 ---
 
-![CDH-Docker-Pentaho-Part1](../images/cdh-docker-1.jpg)
+![CDH-Docker-Pentaho-Part1](https://www.lewisgavin.co.uk/images/cdh-docker-1.jpg)
 
 This is the first part of a multi-part series aimed at demonstrating how to get started in the big data world. The series will include setting up a sandbox environment, ingesting and transforming data with Kafka and Spark and Visualising data using Pentaho BA.
 

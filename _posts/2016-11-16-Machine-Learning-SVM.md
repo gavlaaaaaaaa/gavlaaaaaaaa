@@ -8,7 +8,7 @@ tags:
 - machine learning
 ---
 
-![Improving on Naive Bayes with Support Vector Machines](../images/svm.jpg)
+![Improving on Naive Bayes with Support Vector Machines](https://www.lewisgavin.co.uk/images/svm.jpg)
 
 Last weeks post was a [Machine Learning Intro for everyone](http://www.lewisgavin.co.uk/Machine-Learning-Basics) delving into the basics of Naive Bayes using Simpsons data. This week I am going to build on this to try and improve the accuracy using Support Vector Machines.
 
@@ -18,7 +18,7 @@ An SVM is another example of a Supervised Learning algorithm. SVM's look to find
 
 A good line is dependant on a number of things. One of those is the margin. The margin is the distance between the closest point and the line, the larger this is, the better the split and the better the SVM should be.
 
-![Linear SVM](../images/linear_svm.jpg)
+![Linear SVM](https://www.lewisgavin.co.uk/images/linear_svm.jpg)
 
 You might not always get a perfect line, where all elements of each class lie perfectly on each side of the line. Those points that don't are called outliers. When dealing with an outlier, the SVM will just take it's best guess and depending on how you tweak the parameters (like I did for Naive Bayes). 
 
@@ -28,7 +28,7 @@ In the above examples, the data points can be simply split on a linear plane. No
 
 At the minute, the way these work is above my Mathematical knowledge. However the idea is that they take your points plotted on an x,y dimension and apply them to a much larger higher dimension space in order for a linear pattern to be established. Once this hyperplane is found you can then transpose the whole thing back to the original dimension and you have a Non Linear pattern that splits the data.
 
-![Non Linear SVM Kernel Trick] (../images/nonlinear_svm.jpg)
+![Non Linear SVM Kernel Trick] (https://www.lewisgavin.co.uk/images/nonlinear_svm.jpg)
 
 From the above image you can see that the data on the left is non linearly separable, it would involve drawing an arc around the circles to fairly separate them from crosses. To do this you apply a kernel trick, in this case taking x,y and mapping it to x^2,y^2 and voila! It's now linearly separable.
 

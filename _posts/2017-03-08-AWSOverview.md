@@ -8,7 +8,7 @@ tags:
 - aws
 ---
 
-![AWS Overview and IAM](../images/aws_overview.jpg)
+![AWS Overview and IAM](https://www.lewisgavin.co.uk/images/aws_overview.jpg)
 
 This week, I started to look into Amazon Web Services (AWS) to learn about this cloud offering. With more and more services being hosted in the cloud, it seemed like an appropriate time to get a core understanding of what can be done. 
 
@@ -30,9 +30,9 @@ As an example, there is a region called *US East (Ohio)* and another called EU (
 
 Each region has a number of locations within it that are called **Availability Zones**. These can provide failover functionality so if one Availability Zone is down, the others should be isolated and therefore available. They are designed to be isolated but have low latency connections to other Availability zones in the same Region.
 
-![AWS Region and Availability Zone](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/images/Con-AZ.jpg)
+![AWS Region and Availability Zone](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuihttps://www.lewisgavin.co.uk/images/Con-AZ.jpg)
 
-*Image taken from [AWS Docs](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/images/Con-AZ.jpg)*
+*Image taken from [AWS Docs](http://docs.aws.amazon.com/AmazonRDS/latest/UserGuihttps://www.lewisgavin.co.uk/images/Con-AZ.jpg)*
 
 ## Edge Locations
 

@@ -9,7 +9,7 @@ tags:
 - hbase 
 ---
 
-![Intro to Apache HBase](../images/hbase_intro.jpg)
+![Intro to Apache HBase](https://www.lewisgavin.co.uk/images/hbase_intro.jpg)
 
 Apache HBase is a distributed, NoSQL database designed specifically to sit on top of Hadoop and is modeled closely on Google's BigTable.
 
@@ -45,7 +45,7 @@ A HBase table has the following properties:
 4. Columns hold the data
 5. Each **column** has **column family** (there can be one or more column family per table)
 
-![HBase table conceptual view](https://www.tutorialspoint.com/hbase/images/table.jpg)
+![HBase table conceptual view](https://www.tutorialspoint.com/hbahttps://www.lewisgavin.co.uk/images/table.jpg)
 
 *Image taken from [Tutorials Point](https://www.tutorialspoint.com/hbase/hbase_overview.htm)*
 

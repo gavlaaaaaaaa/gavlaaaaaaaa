@@ -9,7 +9,7 @@ tags:
 - python
 ---
 
-![Image Data Prep for Deep Learning Model](../images/dataprep.jpg)
+![Image Data Prep for Deep Learning Model](https://www.lewisgavin.co.uk/images/dataprep.jpg)
 
 Following on from [last weeks post](http://www.lewisgavin.co.uk/FaceRecognition) on face detection. I wanted to figure out a way to skew images so that facial features were aligned regardless of the angle of the face. 
 
@@ -83,7 +83,7 @@ for i, face_rect in enumerate(detected_faces):
 When running the above with my face image it gets skewed and transformed so all my facial features are aligned. As you can see below, it not only aligns the features but increases the size of the face too. I can then do this with multiple facial images so the features are always in the same place.
 
 
-![Face skewed](../images/before_after.jpg)
+![Face skewed](https://www.lewisgavin.co.uk/images/before_after.jpg)
 
 
 My data should then be ready to use in a Deep Learning model. Now all the features are aligned this should improve the accuracy of the model as position of features shouldn't affect how it predicts who's face it is!

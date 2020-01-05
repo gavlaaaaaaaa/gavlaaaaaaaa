@@ -25,7 +25,7 @@ These days, your social network can include more than just people you know and i
 
 But none of this is new. We’re all well aware of this, but what do these online social networks actually do.
 
-![Photo by [Dương Hữu](https://unsplash.com/@huuduong?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](../images/socialnetworktable.jpg)
+![Photo by [Dương Hữu](https://unsplash.com/@huuduong?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://www.lewisgavin.co.uk/images/socialnetworktable.jpg)
 Photo by [Dương Hữu](https://unsplash.com/@huuduong?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)
 
 > They store a link between one person (or entity if you’re being really pedantic) and another.

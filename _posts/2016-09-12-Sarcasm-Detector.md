@@ -9,7 +9,7 @@ tags:
 - spark 
 ---
 
-![Sarcasm Detection](../images/sarcasm.jpg)
+![Sarcasm Detection](https://www.lewisgavin.co.uk/images/sarcasm.jpg)
 
 ## Intro to the Approach
 

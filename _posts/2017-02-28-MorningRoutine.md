@@ -8,7 +8,7 @@ tags:
 - productivity
 ---
 
-![Morning Routine](../images/morning_routine.jpg)
+![Morning Routine](https://www.lewisgavin.co.uk/images/morning_routine.jpg)
 
 
 As promised, in 2017 I've already started writing more posts about self improvement and productivity. I've laid down the [foundation for my 2017 goals](http://www.lewisgavin.co.uk/Goals-2017/) and discussed some [tips and the benefits of disconnecting digitally](http://www.lewisgavin.co.uk/Disconnect/). The next logical step was to talk about [improvements to my every day environments](http://www.lewisgavin.co.uk/Clear-Mind/).
@@ -41,7 +41,7 @@ This is probably one of the most difficult habits to break, but is by far the mo
 - Get a [puzzle alarm clock app](https://play.google.com/store/apps/details?id=com...puzzlealarmclock&hl=en_GB) to force you to work your brain to switch the alarm off.
 - Countdown from 3 in your head and **3, 2, 1, OUT OF BED**
 
-![Alarm, get out of bed](../images/alarm.jpeg)
+![Alarm, get out of bed](https://www.lewisgavin.co.uk/images/alarm.jpeg)
 
 For me I tried all of these and still use the wake up light and countdown technique. It's important to break the habit of snoozing or looking at your phone first thing. It's wasted time and will not energize you. 
 
@@ -70,7 +70,7 @@ This next habit you basically get for free. What else do you want more than a dr
 
 Super simple. You're now out of bed with no hesitation, energized and hydrated. 
 
-![Water, hydrate](../images/water.jpeg)
+![Water, hydrate](https://www.lewisgavin.co.uk/images/water.jpeg)
 
 *For a bonus energizer, go for a cold shower. Again you can build into this slowly. Either start by getting in to cold water for 10 seconds and then hitting the heat or ending your shower with a blast of cold water. Each day just try and increase the time spent in the cold*
 
@@ -80,7 +80,7 @@ You can spend forever reading articles on super healthy breakfasts and what you 
 
 For me, the simple solution was Porridge Oats. My go to option is 35 grams of porridge oats, 80 grams of fruit: blueberries, raspberries, strawberries, banana (either fresh or frozen works well) and milk or coconut water. This breakfast is quick and easy to make, relatively cheap and includes 1 portion of your 5-a-day fruit and veg. Not forgetting that it tastes great too.
 
-![Porridge](../images/porridge.jpg)
+![Porridge](https://www.lewisgavin.co.uk/images/porridge.jpg)
 
 **Tips for Success**
 - Buying "smoothie mix" bags of frozen fruit can give you a nice mix of fruits

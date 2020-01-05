@@ -8,7 +8,7 @@ tags:
 - searching
 ---
 
-![Building a Search Engine](../images/building-search-engine.jpg)
+![Building a Search Engine](https://www.lewisgavin.co.uk/images/building-search-engine.jpg)
 
 ## What is Elasticsearch?
 

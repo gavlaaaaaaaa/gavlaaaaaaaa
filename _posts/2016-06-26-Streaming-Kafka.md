@@ -8,7 +8,7 @@ tags:
 - kafka
 ---
 
-![Why Streaming?](../images/streaming.jpg)
+![Why Streaming?](https://www.lewisgavin.co.uk/images/streaming.jpg)
 
 With data flowing and updating from ever more sources, businesses are looking to translate this data into insights to make key business decisions. Real time data streams have become more popular due to the Internet of Things (IoT), sensors and social media. These platforms provide ever changing states. Analysing them a day later can give misleading or now currently false information.
 
@@ -16,13 +16,13 @@ Streaming allows consistent data ingestion. There were a few flaws that prevente
 
 Newer streaming technologies such as Apache Kafka have helped resolve some of these issues. Kafka is a publish-subscribe message system. It provides isolation between data producers and data consumers. It also allows intermediate storage and buffering of data to help with large velocities. 
 
-![Kafka](../images/kafka.jpg)
+![Kafka](https://www.lewisgavin.co.uk/images/kafka.jpg)
 
 When choosing a streaming platform, there are three main things to consider: Reliability, throughput and flexibility. Kafka is capable of providing each of these in its own way.
 
 To ensure reliability, Kafka uses replication. One replica is the designated leader. The others follow and fetch data from the leader. This means every partition has a leader to fetch from. If any partition goes down another is there to fetch from.
 
-![Kafka reliability](../images/kafka_reliability.jpg) 
+![Kafka reliability](https://www.lewisgavin.co.uk/images/kafka_reliability.jpg) 
 
 _Image taken from http://www.slideshare.net/gwenshap/kafka-reliability-when-it-absolutely-positively-has-to-be-there_
 

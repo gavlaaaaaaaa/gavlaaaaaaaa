@@ -44,7 +44,7 @@ There are 3 types of job hops that can be used:
 
 
 The following diagram shows an example of a job using the three different hop types.
-![Job Hops](../images/Pentaho/job_hops.jpg)
+![Job Hops](https://www.lewisgavin.co.uk/images/Pentaho/job_hops.jpg)
 
 
 Now we've got the basics of Transformations and Jobs down - in the next part of the series I am going to show you some cool, advanced things you can do with PDI such as: quickly and easily migrating from one database to another (MySQL to Hive), Metadata Injection and running Pentaho Map Reduce jobs on a Hadoop cluster.

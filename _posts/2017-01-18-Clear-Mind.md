@@ -8,7 +8,7 @@ tags:
 - productivity
 ---
 
-![Clear Environment, Clear Mind](../images/clear_env.jpg)
+![Clear Environment, Clear Mind](https://www.lewisgavin.co.uk/images/clear_env.jpg)
 
 [Last week I talked about Disconnecting](http://www.lewisgavin.co.uk/Disconnect/), how I've achieved it and why I've started to do it. This week I wanted to concentrate on improvements I have made to my non digital environments. 
 
@@ -33,7 +33,7 @@ I thought I'd give it a go. As you saw in the [last post](http://www.lewisgavin.
 I took a long hard look at every item of clothing in my wardrobe and asked "How many times in the last 3 months did you wear this item of clothing?".
 So many times the answer was 0 and so I removed a lot of my old clothing items, in general T-Shirts.
 
-![Home Desk](../images/desk.jpg)
+![Home Desk](https://www.lewisgavin.co.uk/images/desk.jpg)
 
 I applied this same logic to my home office desk. I removed all unnecessary items until only my iMac, the lamp and 2 decorative items remained. I decided to keep decorative items to a minimum and they must serve a purpose. The first item is my Eurocopter helicopter model: this reminds me of my year spent in Germany and it's impact on my life. The second: my mini drone that provides an escape when I need time to concentrate on anything else.
 
