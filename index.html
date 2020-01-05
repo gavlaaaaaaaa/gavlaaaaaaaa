@@ -4,16 +4,8 @@ layout: default
 
 <div class="posts">
   {% for post in site.posts %}
-    {% if forloop.index > 9 %}
-        <article class="post">
-    	<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <h5><i class="icon-tags"></i> {% for tag in post.tags %}| <a href="/tag/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a> |  {% if forloop.last != true %} {% endif %} {% endfor %}</h5>
-
-          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        </article>
-    
-    {% else %}
     <article class="post">
+    
     {% assign loopindex = forloop.index | modulo: 4 %}
     {% if loopindex == 1 and forloop.first == false  %}
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -27,6 +19,15 @@ layout: default
 	     (adsbygoogle = window.adsbygoogle || []).push({});
 	</script>
     {% endif %}
+    
+     {% if forloop.index > 9 %}
+    	<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h5><i class="icon-tags"></i> {% for tag in post.tags %}| <a href="/tag/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a> |  {% if forloop.last != true %} {% endif %} {% endfor %}</h5>
+
+          <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        </article>
+    
+    {% else %}
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1> 
       <h5><i class="icon-tags"></i> {% for tag in post.tags %}| <a href="/tag/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a> |  {% if forloop.last != true %} {% endif %} {% endfor %}</h5>
 
@@ -35,7 +36,7 @@ layout: default
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
     {% endif %}
+    </article>
   {% endfor %}
 </div>
