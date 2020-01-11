@@ -1,15 +1,15 @@
 ---
 layout: post
-title: A Social Network is just a table with 2 columns
+title: How to Build Your own SOCIAL NETWORK 
 author: Lewis Gavin
 comments: true
 tags:
 - dataengineer
 - datawarehouse
 - socialnetwork
----
+--- 
 
-… but my sentiment still stands. The essence of a social network can easily be stored in a single table with two columns.
+The essence of a social network can easily be stored in a single table with two columns.
 
 This post was inspired by the complex way social networks are depicted, especially in diagrams and it made me think about how to simplify the idea of it so that anyone could understand it.
 
