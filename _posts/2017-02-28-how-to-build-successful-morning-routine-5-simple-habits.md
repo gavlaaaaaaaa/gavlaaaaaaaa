@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title:  Ideas for a Morning Routine to encourage Success
+title:  How to Build a SUCCESSFUL Morning Routine | 5 Simple Habits 
 author: Lewis Gavin 
 comments: true 
 tags: 

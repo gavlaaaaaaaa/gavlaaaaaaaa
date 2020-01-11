@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title:  Clear Environment, Clear Mind
+title:  Minimalism Tips for a Clear Mind and Decluttered Life 
 author: Lewis Gavin 
 comments: true 
 tags: 
