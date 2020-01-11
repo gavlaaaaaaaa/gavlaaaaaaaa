@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title:  Getting the most out of 2017
+title:  Improve your Life THIS YEAR with these Simple Tips
 author: Lewis Gavin 
 comments: true 
 tags: 
@@ -8,15 +8,15 @@ tags:
 - health
 ---
 
-![Getting the most out of 2017](https://www.lewisgavin.co.uk/images/goals2017.jpg)
+![Getting the most out of this year](https://www.lewisgavin.co.uk/images/goalsthis year.jpg)
 
-First things first, Happy new year! If you're anything like me, you've just enjoyed a nice break for the holidays and are ready to kill it in 2017.
+First things first, Happy new year! If you're anything like me, you've just enjoyed a nice break for the holidays and are ready to kill it this year.
 
-After spending time reflecting on what I want out of 2017, I came up with a list of priorities for the year and the actions I could take in order to fulfill them. The main goal is to focus on **Enjoyment, Minimalism and Reduction**
+After spending time reflecting on what I want out of this year, I came up with a list of priorities for the year and the actions I could take in order to fulfill them. The main goal is to focus on **Enjoyment, Minimalism and Reduction**
 
 This post will outline my goals and plan for the year. I will be adding subsequent posts to then follow my progress throughout the year and share any tips and tricks I have found useful.
 
-## Goals for 2017
+## Goals for this year
 
 - Reduce and Minimise everything in my life.
 - Live more, work less and get outdoors more often!
@@ -80,9 +80,9 @@ Similar to paying for a cleaner, this solution might end up costing a little mor
 
 ## What's Next!
 
-With two simple changes (removing chores and shopping from my weekend) I have now opened up my weekends and evenings to spend more time on the activities on my "Things I enjoy doing" list. With the improvement to my work schedule too, 2017 will undoubtedly be a fun and simple year.
+With two simple changes (removing chores and shopping from my weekend) I have now opened up my weekends and evenings to spend more time on the activities on my "Things I enjoy doing" list. With the improvement to my work schedule too, this year will undoubtedly be a fun and simple year.
 
-For the rest of 2017 I will be mixing up this blog with lifestyle and self improvement posts, on top of the usual technology posts. Each week I will be bringing a new post breaking down the steps I will be taking to **Enjoy, Minimise and Reduce** so please stay tuned.
+For the rest of this year I will be mixing up this blog with lifestyle and self improvement posts, on top of the usual technology posts. Each week I will be bringing a new post breaking down the steps I will be taking to **Enjoy, Minimise and Reduce** so please stay tuned.
 
 As a sneak peak - the first post will be looking at how I've changed my habits regarding my mobile phone and social networks.
 

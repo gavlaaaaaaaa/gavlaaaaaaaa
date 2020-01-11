@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title:  NoSQL vs RDBMS 
+title:  NoSQL vs SQL | Which one should I choose? 
 author: Lewis Gavin 
 comments: true 
 tags: 

@@ -1,6 +1,6 @@
 --- 
 layout: post 
-title:  Disconnect Digitally & Reconnect with the Real World!
+title:  How to Start your Digital Detox in 2020
 author: Lewis Gavin 
 comments: true 
 tags: 
@@ -10,7 +10,7 @@ tags:
 
 ![Disconnect Digitally & Reconnect with the Real World](https://www.lewisgavin.co.uk/images/break_phone_habit.jpg)
 
-In my [previous post](http://www.lewisgavin.co.uk/Goals-2017/)I shared my goals for 2017 and how I planned to focus on **Enjoyment, Minimalism and Reduction**. The starting point for me was to ensure I was present, in the real world in order to enjoy the activities I like doing. I also wanted to minimise as much as I could so that when I choose to do something, the activity had my full focus and attention.
+In a [previous post ](http://www.lewisgavin.co.uk/Goals-2017/), 3 years ago now, I shared my goals for 2017 and how I planned to focus on **Enjoyment, Minimalism and Reduction**. The starting point for me was to ensure I was present, in the real world in order to enjoy the activities I like doing. I also wanted to minimise as much as I could so that when I choose to do something, the activity had my full focus and attention.
 
 I spent some time thinking about the different things that cause me to worry or that take my attention elsewhere. I found one of the biggest culprits was my smart phone. The constant vibrate and ping of notifications and obsession with not missing a thing online. This includes emails, social media notifications and browsing reddit or random article sites - anything that can first distract and then engage me.
 
