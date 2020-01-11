@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why Streaming? with Apache Kafka
+title: Why use Apache Kafka for real time streaming applications
 author: Lewis Gavin
 tags:
 - bigdata

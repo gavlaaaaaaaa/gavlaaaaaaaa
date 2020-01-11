@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to architect the perfect Data Warehouse 
+title: How to Build a Fast Data Warehouse with Amazon Redshift
 author: Lewis Gavin
 comments: true
 tags:
