@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Complex DynamoDB data into Redshift made easy
+title: How to Ingest DynamoDB JSON Data into Redshift
 author: Lewis Gavin
 comments: true
 tags:
