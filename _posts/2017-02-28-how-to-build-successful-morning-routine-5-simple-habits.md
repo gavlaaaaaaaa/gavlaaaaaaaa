@@ -11,7 +11,7 @@ tags:
 ![Morning Routine](https://www.lewisgavin.co.uk/images/morning_routine.jpg)
 
 
-As promised, in 2017 I've already started writing more posts about self improvement and productivity. I've laid down the [foundation for my 2017 goals](http://www.lewisgavin.co.uk/Goals-2017/) and discussed some [tips and the benefits of disconnecting digitally](http://www.lewisgavin.co.uk/Disconnect/). The next logical step was to talk about [improvements to my every day environments](http://www.lewisgavin.co.uk/Clear-Mind/).
+As promised, in 2017 I've already started writing more posts about self improvement and productivity. I've laid down the [foundation for my 2017 goals](http://www.lewisgavin.co.uk/improve-your-life-this-year-with-these-simple-tips/) and discussed some [tips and the benefits of disconnecting digitally](http://www.lewisgavin.co.uk/how-to-digital-detox-2020/). The next logical step was to talk about [improvements to my every day environments](http://www.lewisgavin.co.uk/minimalism-tips-clear-mind-declutter/).
 
 In the upcoming self-improvement posts, I'm going to talk about how I've crafted my morning routine. Starting with my road to becoming a morning person, followed by diet and behavioral changes during my working and non working days. Finally I'll share my techniques for unwinding on an evening in order to repair after a days work.
 

@@ -13,7 +13,7 @@ tags:
 
 Welcome to part 2 of the series. In [part 1](http://www.lewisgavin.co.uk/CDH-Docker) we looked at installing a CDH quickstart docker container along with Pentaho BA. Now we have some basic infrastructure in place, it's time to start thinking about data!
 
-The logical place to start is **data ingestion**. You can't do anything until you have some data, so in this post we are going to explore using Apache Kafka to stream data in real time from Twitter. If you are not familiar with Kafka I recommend [this post](http://www.lewisgavin.co.uk/Streaming-Kafka/) to outline the basics before continuing.
+The logical place to start is **data ingestion**. You can't do anything until you have some data, so in this post we are going to explore using Apache Kafka to stream data in real time from Twitter. If you are not familiar with Kafka I recommend [this post](http://www.lewisgavin.co.uk/why-use-apache-kafka-real-time-streaming-applications/) to outline the basics before continuing.
 
 ## Installing Kafka
 

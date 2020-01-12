@@ -124,12 +124,27 @@ layout: default
   </div>
 
   <div class="PageNavigation">
+    <h1>Recommended Posts</h1>
   {% if page.previous.url %}
-   Previous: <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+      <h1><a href="{{ page.previous.url }}">{{page.previous.title}}</a></h1> 
+      <h5><i class="icon-tags"></i> {% for tag in page.previous.tags %}| <a href="/tag/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a> |  {% if forloop.last != true %} {% endif %} {% endfor %}</h5>
+
+      <div class="entry">
+        {{ page.previous.excerpt }}
+      </div>
+
+      <a href="{{ page.previous.url }}" class="read-more">Read More</a>
   {% endif %}
   <br><br>
   {% if page.next.url %}
-    Next: <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+    <h1><a href="{{ page.next.url }}">{{page.next.title}}</a></h1> 
+      <h5><i class="icon-tags"></i> {% for tag in page.next.tags %}| <a href="/tag/{{ tag }}" title="View posts tagged with &quot;{{ tag }}&quot;"><u>{{ tag }}</u></a> |  {% if forloop.last != true %} {% endif %} {% endfor %}</h5>
+
+      <div class="entry">
+        {{ page.next.excerpt }}
+      </div>
+
+      <a href="{{ page.next.url }}" class="read-more">Read More</a></a>
   {% endif %}
   </div>
 

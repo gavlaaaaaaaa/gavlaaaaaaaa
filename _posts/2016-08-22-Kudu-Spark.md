@@ -51,7 +51,7 @@ To check you are all up and running you can start the `impala-shell` and Clouder
 
 ## Creating a Kudu table with Impala
 
-At this point, if you haven't already and aren't familiar with Kudu, it might be worth checking out my initial [beginners guide to Kudu](http://www.lewisgavin.co.uk/Apache-Kudu). Once you know the basics we can then crack on to creating our first Kudu table.
+At this point, if you haven't already and aren't familiar with Kudu, it might be worth checking out my initial [beginners guide to Kudu](http://www.lewisgavin.co.uk/what-is-apache-kudu-data-storage/). Once you know the basics we can then crack on to creating our first Kudu table.
 
 Start the `impala-shell`. We are going to create a table to store our ngrams and their current count. As stated in the Kudu post linked above, Kudu requires a unique key on every table that acts as the index. Seeing as we only ever want to store each ngram once along with its most current count, we can use our ngram as the key and the count as the value. Our schema will look as follows:
 
