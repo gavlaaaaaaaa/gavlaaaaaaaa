@@ -48,7 +48,7 @@ Has anyone ever defended their lack of sleep to you by claiming that they will s
 
 Studies in Greece have shown that as the siesta slowly started to phase out of cities the rates of death due to heart disease increased by nearly 40%. This remained true when studies controlled for other factors including an individuals health, weight and smoking habits.
 
-[Photo by [micaela Marianthi](https://unsplash.com/@micaela_ma?utm_source=medium&utm_medium=referral) on Unsplash](https://www.lewisgavin.co.uk/images/greekman.jpg)
+![Photo by [micaela Marianthi](https://unsplash.com/@micaela_ma?utm_source=medium&utm_medium=referral) on Unsplash](https://www.lewisgavin.co.uk/images/greekman.jpg)
 
 The island of Ikaria in Greece, well known for its long living residents has retained its siesta culture and men here live on average 4 times longer than the average American male. The afternoon nap, along with their diet and active lifestyle (both made more likely by good sleep) mean people on this island live long and well rested lives.
 
