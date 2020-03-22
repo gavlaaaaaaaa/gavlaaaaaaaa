@@ -1,6 +1,7 @@
 --- 
 layout: post 
 title:  How to Build a SUCCESSFUL Morning Routine | 5 Simple Habits 
+redirect_from: /MorningRoutine/
 author: Lewis Gavin 
 comments: true 
 tags: 

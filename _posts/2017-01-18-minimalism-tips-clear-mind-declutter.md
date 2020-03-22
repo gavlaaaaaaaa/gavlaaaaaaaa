@@ -1,6 +1,7 @@
 --- 
 layout: post 
 title:  Minimalism Tips for a Clear Mind and Decluttered Life 
+redirect_from: /Clear-Mind/
 author: Lewis Gavin 
 comments: true 
 tags: 

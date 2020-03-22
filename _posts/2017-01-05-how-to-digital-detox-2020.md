@@ -1,6 +1,7 @@
 --- 
 layout: post 
 title:  How to Start your Digital Detox in 2020
+redirect_from: /Disconnect/
 author: Lewis Gavin 
 comments: true 
 tags: 

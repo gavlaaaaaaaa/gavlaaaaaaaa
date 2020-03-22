@@ -1,6 +1,7 @@
 ---
 layout: post
-title: How to Build Your own SOCIAL NETWORK 
+title: How to Build Your own SOCIAL NETWORK
+redirect_from: /A-Social-Network-is-just-a-table-with-2-columns-c30d9c3b5e6e/
 author: Lewis Gavin
 comments: true
 tags:
