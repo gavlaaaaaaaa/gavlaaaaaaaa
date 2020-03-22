@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Spark Performance Tuning | 5 ways to improve performance of Spark Applications
+redirect_from:
+ - /Spark-Performance/
 author: Lewis Gavin
 tags:
 - bigdata
