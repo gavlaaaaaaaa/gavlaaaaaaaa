@@ -1,6 +1,7 @@
 --- 
 layout: post 
 title:  Improve your Life THIS YEAR with these Simple Tips
+redirect_from: /Goals-2017/
 author: Lewis Gavin 
 comments: true 
 tags: 

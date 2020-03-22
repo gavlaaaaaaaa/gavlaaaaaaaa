@@ -1,6 +1,7 @@
 ---
 layout: post
 title: What is Apache Kudu in 5 Minutes
+redirect_from: /Apache-Kudu/
 author: Lewis Gavin
 tags:
 - bigdata

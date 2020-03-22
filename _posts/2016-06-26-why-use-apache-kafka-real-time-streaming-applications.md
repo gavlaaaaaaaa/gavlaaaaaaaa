@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Why use Apache Kafka for real time streaming applications
+redirect_from: /Streaming-Kafka/
 author: Lewis Gavin
 tags:
 - bigdata

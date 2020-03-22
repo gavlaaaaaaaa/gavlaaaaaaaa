@@ -1,6 +1,7 @@
 --- 
 layout: post 
 title:  How to Scale Spark Streaming Applications
+redirect_from: /Advanced-Spark-Streaming/
 author: Lewis Gavin 
 comments: true 
 tags: 

@@ -1,6 +1,7 @@
 --- 
 layout: post 
 title:  NoSQL vs SQL | Which one should I choose? 
+redirect_from: /NoSQLvsRDBMS/
 author: Lewis Gavin 
 comments: true 
 tags: 
