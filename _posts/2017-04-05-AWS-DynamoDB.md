@@ -10,7 +10,7 @@ tags:
 
 ![Dynamo DB](https://www.lewisgavin.co.uk/images/dynamodb.jpg)
 
-This week I'm recapping what I've learned about Amazon's NoSQL database offering, DynamoDB. If you want to see what else I've learned about AWS over the recent weeks then check out my [AWS Overview](http://www.lewisgavin.co.uk/AWSOverview), [EC2 Intro](http://www.lewisgavin.co.uk/AWS-EC2) and [Amazon Redshift at a Glance](http://www.lewisgavin.co.uk/Amazon-Redshift) and [Amazon S3](http://www.lewisgavin.co.uk/AWS-S3) posts.
+This week I'm recapping what I've learned about Amazon's NoSQL database offering, DynamoDB. If you want to see what else I've learned about AWS over the recent weeks then check out my [AWS Overview](https://www.lewisgavin.co.uk/AWSOverview), [EC2 Intro](https://www.lewisgavin.co.uk/AWS-EC2) and [Amazon Redshift at a Glance](https://www.lewisgavin.co.uk/Amazon-Redshift) and [Amazon S3](https://www.lewisgavin.co.uk/AWS-S3) posts.
 
 ## What is it?
 
@@ -37,7 +37,7 @@ A DynamoDB table must have a primary key. There are two possible types to choose
 1. Partition Key - Single Attribute - this will just be a field in your data source that uniquely represents the row (e.g. an auto generated, unique product ID).
 2. Partition Key & Sort Key - Composite Key - this will be a combo of two attributes that will uniquely identify the row, and how the data should naturally be sorted (e.g. Unique product ID and purchase date timestamp)
 
-It's important that your DynamoDB partition key is unique and sparse. As this key is hashed internally and used to distribute that data for storage. This is a similar technique to [Redshift](http://www.lewisgavin.co.uk/Amazon-Redshift) and [HBase](http://www.lewisgavin.co.uk/HBase-Intro/) that prevents hotspotting of data.
+It's important that your DynamoDB partition key is unique and sparse. As this key is hashed internally and used to distribute that data for storage. This is a similar technique to [Redshift](https://www.lewisgavin.co.uk/Amazon-Redshift) and [HBase](https://www.lewisgavin.co.uk/HBase-Intro/) that prevents hotspotting of data.
 
 If using a composite key, then two items can have the same Partition Key but the Sort Key must be unique. This will mean all items with the same Partition key will be stored together but sorted in ascending order using the Sort Key.
 

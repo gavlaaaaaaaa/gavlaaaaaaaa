@@ -11,7 +11,7 @@ tags:
 
 ![Face Recognition with Deep Learning](https://www.lewisgavin.co.uk/images/face_recognition.jpg)
 
-In my previous two posts I looked at [Detecting faces within images](http://www.lewisgavin.co.uk/FaceRecognition) and then [Data prep](http://www.lewisgavin.co.uk/ImageDataPrep) to extract the face from the image and align it so that regardless of the rotation of the face, the facial features were always aligned centrally.
+In my previous two posts I looked at [Detecting faces within images](https://www.lewisgavin.co.uk/FaceRecognition) and then [Data prep](https://www.lewisgavin.co.uk/ImageDataPrep) to extract the face from the image and align it so that regardless of the rotation of the face, the facial features were always aligned centrally.
 
 In this post I will be preparing a number of images of myself and also Brad Pitt. The goal will be to train a Deep Learning model on these images to see if it can detect the difference between us when presented with a new image.
 
@@ -29,13 +29,13 @@ For this post, Deep Learning will be used to produce points called embeddings (e
 2. Make sure all points produced for images of my face are similar.
 3. Make sure points produced for images of Brad Pitt are as different as possible to points produced for images of my face.
 
-This will then allow us to train a [classification model](http://www.lewisgavin.co.uk/Machine-Learning-Basics/) to tell the two sets of images apart.
+This will then allow us to train a [classification model](https://www.lewisgavin.co.uk/Machine-Learning-Basics/) to tell the two sets of images apart.
 
 ## Building some Training Data
 
 The first step was to get some more data. I didn't want to spend forever digging and downloading images so I initially trialled it with 3 images of Brad and 3 images of myself, just to prove the concept.
 
-I run each of the images through the `face_skew.py` python application I wrote in the [previous post](http://www.lewisgavin.co.uk/ImageDataPrep). This gave me a total of 6 aligned images. 
+I run each of the images through the `face_skew.py` python application I wrote in the [previous post](https://www.lewisgavin.co.uk/ImageDataPrep). This gave me a total of 6 aligned images. 
 
 ![Me and Brad Pitt with Face Skew](https://www.lewisgavin.co.uk/images/me_bradp_skew.jpg)
 
@@ -64,13 +64,13 @@ In the `outDir` this should produce 2 files: `labels.csv` and `reps.csv`. These 
 
 **Success! I have run my images against a Deep Learning model and produced some output**
 
-You may notice a trend when dealing with [Machine Learning applications](http://www.lewisgavin.co.uk/tag/machine%20learning/). Most of the work is in the data prep and getting the data into a format the is machine readable. In our case here, it was taking image data and converting it to a numerical representation. Before classifying textual data for sentiment analytics we have to do the same thing.
+You may notice a trend when dealing with [Machine Learning applications](https://www.lewisgavin.co.uk/tag/machine%20learning/). Most of the work is in the data prep and getting the data into a format the is machine readable. In our case here, it was taking image data and converting it to a numerical representation. Before classifying textual data for sentiment analytics we have to do the same thing.
 
 Once completed, all that remained was building a simple classifier to do the "recognition".
 
 ## Recognising Faces - Do I look like Brad Pitt?
 
-If you want a more advanced approach to this step, you could train your own classification model to classify the embeddings. However within the Openface directory, they kindly provided an example python classifier that uses a [Support Vector Machine algorithm](http://www.lewisgavin.co.uk/Machine-Learning-SVM/).
+If you want a more advanced approach to this step, you could train your own classification model to classify the embeddings. However within the Openface directory, they kindly provided an example python classifier that uses a [Support Vector Machine algorithm](https://www.lewisgavin.co.uk/Machine-Learning-SVM/).
 
 From the Openface base directory, go into the directory named `demos`.
 

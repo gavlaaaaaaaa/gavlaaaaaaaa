@@ -12,7 +12,7 @@ tags:
 
 ![NoSQL databases vs Relational Database RDBMS](https://www.lewisgavin.co.uk/images/nosqlvsrdbms.jpg)
 
-This post will be looking into the differences and benefits of NoSQL databases in comparison to traditional databases. After exploring this a little in my [previous post on Apache HBase](http://www.lewisgavin.co.uk/HBase-Intro) I thought it was worth a full post.
+This post will be looking into the differences and benefits of NoSQL databases in comparison to traditional databases. After exploring this a little in my [previous post on Apache HBase](https://www.lewisgavin.co.uk/HBase-Intro) I thought it was worth a full post.
 
 ## Some Definitions
 
@@ -67,7 +67,7 @@ Examples: Riak, BerkeleyDB
 
 ### Wide-Column
 
-[HBase](http://www.lewisgavin.co.uk/HBase-Intro) is an example of a Wide-Column database. All data that relates to something is stored on a single row. Columns are as wide as you like and they are designed for queries over wider sets of data. Usually have no concept of a join as the data is already pre-joined and stored together.
+[HBase](https://www.lewisgavin.co.uk/HBase-Intro) is an example of a Wide-Column database. All data that relates to something is stored on a single row. Columns are as wide as you like and they are designed for queries over wider sets of data. Usually have no concept of a join as the data is already pre-joined and stored together.
 
 Examples: HBase, Cassandra
 

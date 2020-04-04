@@ -11,7 +11,7 @@ tags:
 
 ![Clear Environment, Clear Mind](https://www.lewisgavin.co.uk/images/clear_env.jpg)
 
-[Last week I talked about Disconnecting](http://www.lewisgavin.co.uk/how-to-digital-detox-2020/), how I've achieved it and why I've started to do it. This week I wanted to concentrate on improvements I have made to my non digital environments. 
+[Last week I talked about Disconnecting](https://www.lewisgavin.co.uk/how-to-digital-detox-2020/), how I've achieved it and why I've started to do it. This week I wanted to concentrate on improvements I have made to my non digital environments. 
 
 If you're wondering when I will be posting the next technical blog post, then fear not. I'm currently working through [Udacity's Deep Learning course](https://www.udacity.com/course/deep-learning--ud730) and will be writing a related series.
 
@@ -29,7 +29,7 @@ First of all, by not rushing to a conclusion. I spent a lot of time assessing th
 
 As stated in the last post, the focus is **Reduction**. I've found the most effective solutions tend to subtract rather than add. In my role as a software engineer, removing code is often preferred to adding code. So why can't this be the same with problems in every day life?
 
-I thought I'd give it a go. As you saw in the [last post](http://www.lewisgavin.co.uk/how-to-digital-detox-2020/), I started with my mobile phone. Removing all the clutter and distractions that come with a smart phone. The next step was to apply this same solution to environments in my every day life. This includes rooms at home, my wardrobe, drawers and my work desk.
+I thought I'd give it a go. As you saw in the [last post](https://www.lewisgavin.co.uk/how-to-digital-detox-2020/), I started with my mobile phone. Removing all the clutter and distractions that come with a smart phone. The next step was to apply this same solution to environments in my every day life. This includes rooms at home, my wardrobe, drawers and my work desk.
 
 I took a long hard look at every item of clothing in my wardrobe and asked "How many times in the last 3 months did you wear this item of clothing?".
 So many times the answer was 0 and so I removed a lot of my old clothing items, in general T-Shirts.

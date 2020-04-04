@@ -12,13 +12,13 @@ tags:
 
 ![Scaling Spark streaming](https://www.lewisgavin.co.uk/images/scaling_spark.jpg)
 
-In previous posts I have looked at [Spark Streaming](http://www.lewisgavin.co.uk/Spark-Streaming/) and [improving the performance of Spark applications](http://www.lewisgavin.co.uk/spark-performance-tuning-improve-performance/).
+In previous posts I have looked at [Spark Streaming](https://www.lewisgavin.co.uk/Spark-Streaming/) and [improving the performance of Spark applications](https://www.lewisgavin.co.uk/spark-performance-tuning-improve-performance/).
 
 This post is going to delve deeper into scaling Spark streaming applications to ensure higher throughput of data.
 
 ## Standalone Spark Streaming
 
-Without repeating too much of what was covered in my original [Spark Streaming](http://www.lewisgavin.co.uk/Spark-Streaming/) post, Spark will recieve serialized data over the network. This data will be sent to a reciever on a particular node where it will be deserialized into RDD's to be stored in Spark's memory. These RDD's are then split and sent to other worker nodes where transformations are executed in parallel.
+Without repeating too much of what was covered in my original [Spark Streaming](https://www.lewisgavin.co.uk/Spark-Streaming/) post, Spark will recieve serialized data over the network. This data will be sent to a reciever on a particular node where it will be deserialized into RDD's to be stored in Spark's memory. These RDD's are then split and sent to other worker nodes where transformations are executed in parallel.
 
 This distribution across workers is done dynamically meaning that *work* is evenly distributed based on the current workload of each worker. For example if you are recieving data in 5 second batches. For 2 minutes you only recieve really small amounts of data then you start to recieve huge amounts of data for a minute or so before returning to smaller data amounts. 
 

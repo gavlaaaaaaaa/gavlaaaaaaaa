@@ -12,7 +12,7 @@ tags:
 
 ![Spark Performance](https://www.lewisgavin.co.uk/images/sparkperf.jpg)
 
-Recently I attended the Strata and Hadoop World Conf in London, you can see my post on the day [here](http://www.lewisgavin.co.uk/Strata-Hadoop/). As part of the afternoon technical sessions, I attended a talk by Holden Karau on scaling Spark applications. 
+Recently I attended the Strata and Hadoop World Conf in London, you can see my post on the day [here](https://www.lewisgavin.co.uk/Strata-Hadoop/). As part of the afternoon technical sessions, I attended a talk by Holden Karau on scaling Spark applications. 
 
 The talk gave me a lot of good tips to take away and implement into my own Spark code so I thought they were worth sharing. 
 

@@ -36,7 +36,7 @@ The tweets need to be labelled correctly too. If a tweet contains #sarcasm or #s
 
 ~~~
 
-Now we are pretty much at the same state as we were in [part 1](http://www.lewisgavin.co.uk/Sarcasm-Detector). We have a labelled data set that can now be vectorised and run through the same Naive Bayes model trainer as we did previously.
+Now we are pretty much at the same state as we were in [part 1](https://www.lewisgavin.co.uk/Sarcasm-Detector). We have a labelled data set that can now be vectorised and run through the same Naive Bayes model trainer as we did previously.
 
 ## Wrap Up
 
@@ -44,5 +44,5 @@ As you can see, this is a relatively shorter post than usual. The reason for tha
 
 However I thought it would be useful to at least share my findings and I may come back to update this post at a later date if I improve on the way it works.
 
-To supplement the smaller post this week there is a [guest post](http://www.lewisgavin.co.uk/Vishal-EU) by a friend and colleague of mine - Vishal Jhaveri. Vishal used some big data analytics techniques - including using twitter data - to try and predict the outcome of the UK's EU referendum (better known now as brexit). Click the link above to find out more.
+To supplement the smaller post this week there is a [guest post](https://www.lewisgavin.co.uk/Vishal-EU) by a friend and colleague of mine - Vishal Jhaveri. Vishal used some big data analytics techniques - including using twitter data - to try and predict the outcome of the UK's EU referendum (better known now as brexit). Click the link above to find out more.
 

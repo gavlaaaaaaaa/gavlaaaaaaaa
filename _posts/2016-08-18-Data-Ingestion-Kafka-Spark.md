@@ -11,9 +11,9 @@ tags:
 
 ![Data-Ingestion-Kafka-Spark-Part2](https://www.lewisgavin.co.uk/images/bdj-part2.jpg)
 
-Welcome to part 2 of the series. In [part 1](http://www.lewisgavin.co.uk/CDH-Docker) we looked at installing a CDH quickstart docker container along with Pentaho BA. Now we have some basic infrastructure in place, it's time to start thinking about data!
+Welcome to part 2 of the series. In [part 1](https://www.lewisgavin.co.uk/CDH-Docker) we looked at installing a CDH quickstart docker container along with Pentaho BA. Now we have some basic infrastructure in place, it's time to start thinking about data!
 
-The logical place to start is **data ingestion**. You can't do anything until you have some data, so in this post we are going to explore using Apache Kafka to stream data in real time from Twitter. If you are not familiar with Kafka I recommend [this post](http://www.lewisgavin.co.uk/why-use-apache-kafka-real-time-streaming-applications/) to outline the basics before continuing.
+The logical place to start is **data ingestion**. You can't do anything until you have some data, so in this post we are going to explore using Apache Kafka to stream data in real time from Twitter. If you are not familiar with Kafka I recommend [this post](https://www.lewisgavin.co.uk/why-use-apache-kafka-real-time-streaming-applications/) to outline the basics before continuing.
 
 ## Installing Kafka
 
@@ -144,7 +144,7 @@ You should see some json objects being printed out to the screen containing twee
 
 Now we've got our Kafka producer up and running, its time to write an application to consume and process these tweets. 
 
-To do this we're going to build a [Spark streaming application](http://www.lewisgavin.co.uk/Spark-Streaming/). We will connect to our topic through the zookeeper instance (the same way the simple consumer above works) and generate ngrams from the tweet text. Every 60 seconds we will then list the top 10 3 word phrases from all the tweets collected in that time period.
+To do this we're going to build a [Spark streaming application](https://www.lewisgavin.co.uk/Spark-Streaming/). We will connect to our topic through the zookeeper instance (the same way the simple consumer above works) and generate ngrams from the tweet text. Every 60 seconds we will then list the top 10 3 word phrases from all the tweets collected in that time period.
 
 1 - Set yourself a streaming context up and create a kafka stream
 

@@ -10,7 +10,7 @@ tags:
 
 ![Amazon Redshit](https://www.lewisgavin.co.uk/images/redshift.jpg)
 
-This is a quick post following on with the AWS theme from the last two posts: [AWS Overview](http://www.lewisgavin.co.uk/AWSOverview) and [EC2](http://www.lewisgavin.co.uk/AWS-EC2). 
+This is a quick post following on with the AWS theme from the last two posts: [AWS Overview](https://www.lewisgavin.co.uk/AWSOverview) and [EC2](https://www.lewisgavin.co.uk/AWS-EC2). 
 
 I wanted to delve into Redshift, that isn't something I've covered on the Udemy course I'm doing but is a technology I am particularly interested in from a "big data in the cloud" perspective.
 
@@ -34,6 +34,6 @@ Other benefits include:
 6. **Inexpensive**. You pay as you go and you pay for the number of nodes x the price per hour.
 7. **Continuous backups**. Similar to Hadoop, data is replicated across nodes meaning if a Node was to die, there is always at least 2 other nodes that contain the data. Also, because Redshift is within the AWS ecosystem it can make use of Amazons Hot/Warm/Cold storage options available in S3 meaning you can backup to S3 across regions (for increased safety).
 8. **Fault tolerant**. Again like Hadoop if a Node or Disk goes down there are always others that can take over due to the replication. However even if a Region goes down, if you backup across regions you will be safe too.
-9. **Security is built in**. Amazon VPC and [IAM](http://www.lewisgavin.co.uk/AWSOverview) for user access controls. All data is encrypted on disk and data can be loaded encrypted from S3 too.
+9. **Security is built in**. Amazon VPC and [IAM](https://www.lewisgavin.co.uk/AWSOverview) for user access controls. All data is encrypted on disk and data can be loaded encrypted from S3 too.
 
 
