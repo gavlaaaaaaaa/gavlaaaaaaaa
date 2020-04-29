@@ -4,14 +4,8 @@ layout: default
 <h2 class="post_title">{{page.title}}</h2>
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-  {% for tag in post.tags %}
-  {% if tag == page.tag %}
-    {% assign loopindex = forloop.index | modulo: 4 %}
-    {% if loopindex == 1 and forloop.first == false  %}
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <link rel="canonical" href="https://www.lewisgavin.co.uk{{ page.url }}" />
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <ins class="adsbygoogle"
              style="display:block"
              data-ad-format="fluid"
@@ -21,6 +15,13 @@ layout: default
         <script>
              (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
+  {% for post in site.posts %}
+    <article class="post">
+
+  {% for tag in post.tags %}
+  {% if tag == page.tag %}
+    {% assign loopindex = forloop.index | modulo: 4 %}
+    {% if loopindex == 1 and forloop.first == false  %}
     {% endif %}
 
      {% if forloop.index > 9 %}
