@@ -271,6 +271,7 @@ That’s the base of the application completed. We simply need to loop and conti
 The finished application should then perform as seen in Fig 12. (sped up so you can see the whole journey being plotted)
 
 ![real-time-map](https://www.lewisgavin.co.uk/images/real-time-map.gif)
+
 *Fig 12. GIF of points being plotted in real time*
 
 ## Wrap up
