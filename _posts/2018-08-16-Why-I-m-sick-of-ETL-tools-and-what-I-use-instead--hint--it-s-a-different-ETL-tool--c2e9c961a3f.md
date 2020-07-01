@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why I’m sick of ETL tools and what I use instead (hint: it’s a different ETL tool) 
+title: Why I’m sick of ETL tools and what I use instead (hint, it’s a different ETL tool) 
 author: Lewis Gavin
 comments: true
 tags:
