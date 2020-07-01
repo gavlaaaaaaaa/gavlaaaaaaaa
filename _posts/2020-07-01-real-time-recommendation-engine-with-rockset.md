@@ -41,7 +41,7 @@ As mentioned earlier, I’ll be using the fully managed MongoDB Atlas integratio
 
 Just follow the instructions to get your Atlas instance integrated with Rockset and you’ll then be able to use this integration to create Rockset collections. You may find you need to tweak a few permissions in Atlas for Rockset to be able to see the data, but if everything is working, you’ll see a preview of your data whilst creating the collection as shown in Fig 2.
 
-![create-collection](https://www.lewisgavin.co.uk/images/create-collection.png)  
+![mongodb-create-collection](https://www.lewisgavin.co.uk/images/mongodb-create-collection.png)  
 *Fig 2. Creating a MongoDB collection*
 
 Using this same integration I’ll be creating 3 collections in total: users, tickets and logs. These collections in MongoDB are used to store user data along with favourite genres, ticket purchases and weblogs respectively.
