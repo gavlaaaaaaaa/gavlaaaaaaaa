@@ -1,8 +1,7 @@
 <div id="share">
-    <h2>SHARE</h2>
 
     <ul>
-        <li class="reddit">
+            <li class="reddit">
             <a href="http://www.reddit.com/submit?url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape }}" target="_blank">
                 {% include share-icon-reddit.svg %}
             </a>
@@ -27,8 +26,5 @@
                 {% include share-icon-linkedin.svg %}
             </a>
         </li>
-	<li class="twitter-follow-button">
-	  <a class="twitter-follow-button" href="https://twitter.com/gavlaaaaaaaa" data-size="large" data-show-count="false">Follow</a>
-	</li>
     </ul>
 </div>
