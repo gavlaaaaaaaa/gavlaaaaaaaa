@@ -10,7 +10,7 @@ tags:
 - tesla
 ---
 
-![jp-valery-Qm_n6aoYzDs-unsplash](https://www.lewisgavin.co.uk/images/jp-valery-Qm_n6aoYzDs-unsplash.jpg)
+![Using the Tesla API to track my Model 3 in Real Time](https://www.lewisgavin.co.uk/images/jp-valery-Qm_n6aoYzDs-unsplash.jpg)
 
 In this post I’m going to show you how I tracked the location of my Tesla Model 3 in real time and plotted it on a map. I walk through an end to end integration of requesting data from the car, streaming it into a Kafka Topic and using Rockset to expose the data via its API to create real time visualisations in D3.
 
