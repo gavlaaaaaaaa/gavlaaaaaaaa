@@ -81,5 +81,5 @@ Projecting other vehicles onto this “3D” map will allow for better depth und
 I’m excited to see how the car now evolves once this re-write comes to more cars in the next year or so and starts allowing proper, no human intervention, A to B autonomous driving in a general capacity.
 I know I’ll feel safer using this functionality knowing my car sees this new birdseye view of the world instead of the noisy and unintelligible view it has at the minute.
 
-What do you think about this re-write, do you think Tesla has finally nailed it? I’d love to hear your thoughts below.
+What do you think about this re-write, do you think Tesla has finally nailed it? I’d love to hear your thoughts on Twitter.
 
