@@ -9,7 +9,7 @@ tags:
 - datascience
 ---
 
-![What Companies Really Do With YOUR Data ](https://www.lewisgavin.co.uk/images/data-brain.jpeg)[image source](https://www.behance.net/gallery/11314027/Positive-Posters-design)
+![What Companies Really Do With YOUR Data ](https://www.lewisgavin.co.uk/images/data-brain.jpg)[image source](https://www.behance.net/gallery/11314027/Positive-Posters-design)
 
 We’re growing more and more conscious of how we are being exploited through social media and advertisements that use your data to increase their bottom line.
 
