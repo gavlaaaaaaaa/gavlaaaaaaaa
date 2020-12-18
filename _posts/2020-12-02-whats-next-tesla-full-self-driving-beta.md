@@ -45,7 +45,7 @@ We’re seeing fewer interventions by the testers (anecdotally, would love some 
 
 There have also been changes to the UI, most notably increasing the size of the FSD visualisation so that it takes up a larger portion of the screen. This is useful for the testers to be able to see more context around what the car can see.
 
-[FSD beta visualisation update.](https://www.lewisgavin.co.uk/images/fsd-vis-update.png)
+![FSD beta visualisation update.](https://www.lewisgavin.co.uk/images/fsd-vis-update.png)
 
 On top of this, there have been changes to the car visualisation when the car is parked, including door opening and closing visualisations. The navigation instructions also now move to the left of the screen next to the speedometer when something is blocking the map such as the rearview camera.
 
