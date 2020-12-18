@@ -24,7 +24,7 @@ Honestly, I think they’ve lived up to the hype. Here’s everything exciting t
 For a long time now, any Tesla equipped with Autopilot has been able to stay in its lane and monitor its speed based on traffic. This feature was mostly for highway driving but overtime was good enough that it could be used on city streets, with a few caveats.
 
 These features were called Enhanced Autopilot and the Full Self Driving package unlocked automatic lane changes and exiting/merging on to highways along with most recently, understanding traffic lights.
-Each of these progressions slowly moved us closer to the promised full city street driving, where the car could take you from point A to point B with little to no interventions. However, -Elon said that their existing approach was trapped in a “local maximum”](https://twitter.com/elonmusk/status/1294722951896395776) and therefore it looked unlikely to deliver the full feature set.
+Each of these progressions slowly moved us closer to the promised full city street driving, where the car could take you from point A to point B with little to no interventions. However, [Elon said that their existing approach was trapped in a “local maximum”](https://twitter.com/elonmusk/status/1294722951896395776) and therefore it looked unlikely to deliver the full feature set.
 
 To overcome this, the team has re-written the core FSD architecture meaning multiple images from the front camera array can now be labelled and processed together and “correlated in time”. Before each image was processed independently which is why they were struggling to progress.
 
