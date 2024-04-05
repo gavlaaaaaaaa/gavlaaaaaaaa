@@ -9,6 +9,7 @@ tags:
 ---
 
 ![Why Your Company Needs a Data Engineer](https://www.lewisgavin.co.uk/images/data-engineering.jpeg)
+[Image credit](https://claudeai.uk/ai-blog/)
 
 The growth of data experts in the past 5 years has been exponential. More and more companies are realising the importance of data and its ability to enhance all areas of their business, both customer-facing and internally.
 
